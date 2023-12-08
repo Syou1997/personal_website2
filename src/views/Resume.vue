@@ -127,10 +127,12 @@ export default {
                     <div class="left_area area">
                          <img title="HTML" class="icon" src="./../../image/ICONS/icons8-html-5.svg" alt="html-5">
                          <img title="CSS" class="icon" src="./../../image/ICONS/icons8-css3.svg" alt="css3">
-                         <img title="JavaScript" class="icon" src="./../../image/ICONS/icons8-javascript.svg" alt="javascript">
+                         <img title="JavaScript" class="icon" src="./../../image/ICONS/icons8-javascript.svg"
+                              alt="javascript">
                          <img title="Vue" class="icon" src="./../../image/ICONS/icons8-vue.ico" alt="vue">
                          <img title="Java" class="icon" src="./../../image/ICONS/icons8-java.svg" alt="java">
-                         <img title="Spring Boot" class="icon" src="./../../image/ICONS/icons8-spring-boot.svg" alt="springBoot">
+                         <img title="Spring Boot" class="icon" src="./../../image/ICONS/icons8-spring-boot.svg"
+                              alt="springBoot">
                          <img title="MySQL" class="icon" src="./../../image/ICONS/icons8-mysql.svg" alt="MySQL">
                     </div>
 
@@ -282,6 +284,23 @@ export default {
 
      to {
           opacity: 1;
+     }
+}
+
+//RWD
+@media screen and (max-width: 750px) {
+     .container {
+          .bcg_box {
+               .frame {
+                    flex-direction: column;
+
+                 
+                         .text {
+                              margin-left: 0;
+                         }
+                    
+               }
+          }
      }
 }
 </style>

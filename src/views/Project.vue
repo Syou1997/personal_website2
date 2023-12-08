@@ -90,7 +90,8 @@ export default {
         scale: 1.1;
         background-color: white;
         border: 2px solid #0050FF;
-        a{
+
+        a {
             color: black;
         }
     }
@@ -190,7 +191,7 @@ export default {
                     color: black;
                     font-weight: bold;
                     padding: 1.5rem;
-                    white-space:pre-wrap;
+                    white-space: pre-wrap;
 
                 }
             }
@@ -223,4 +224,25 @@ export default {
     to {
         opacity: 1;
     }
-}</style>
+}
+
+//RWD
+@media screen and (max-width: 750px) {
+    .container{
+        .bcg_box{
+            height: auto;
+            .frame{
+                flex-direction: column;
+                .info{
+                    width: 90%;
+                }
+                .img_frame{
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+}
+</style>
+
