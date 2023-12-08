@@ -50,22 +50,22 @@ export default {
             <h4>Follow Me</h4>
             <!-- icon區 -->
             <div class="icon_area">
-                    <!-- facebook -->
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100004650665762">
-                        <i class="fa-brands fa-facebook icon"></i>
-                    </a>
-                    <!-- X(twitter) -->
-                    <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
-                        <i class="fa-brands fa-x-twitter icon"></i>
-                    </a>
-                    <!-- instagram -->
-                    <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/?hl=zh-tw">
-                        <i class="fa-brands fa-instagram icon"></i>
-                    </a>
-                    <!-- youtube -->
-                    <a target="_blank" href="https://www.youtube.com/channel/UCWs7mmEuhyz9ze2O1QUFpiA">
-                        <i class="fa-brands fa-youtube icon"></i>
-                    </a>
+                <!-- facebook -->
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100004650665762">
+                    <i class="fa-brands fa-facebook icon"></i>
+                </a>
+                <!-- X(twitter) -->
+                <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
+                    <i class="fa-brands fa-x-twitter icon"></i>
+                </a>
+                <!-- instagram -->
+                <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/?hl=zh-tw">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </a>
+                <!-- youtube -->
+                <a target="_blank" href="https://www.youtube.com/channel/UCWs7mmEuhyz9ze2O1QUFpiA">
+                    <i class="fa-brands fa-youtube icon"></i>
+                </a>
 
             </div>
 
@@ -81,7 +81,6 @@ export default {
     height: 10vh;
     padding: 1rem 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
@@ -122,15 +121,19 @@ export default {
         }
     }
 
+    //RWD
+    @media screen and (max-width: 480px) {
+        .container {
+            width: 100vw;
+            flex-direction: column;
+            align-items: center;
+            height: 40vh;
 
-
-
-
-
-
-
-
-
+            h4 {
+                text-align: center;
+            }
+        }
+    }
 
 
 

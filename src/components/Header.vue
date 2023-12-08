@@ -13,6 +13,7 @@ export default {
      },
      data() {
           return {
+               isShow: false
 
           }
      },
@@ -25,7 +26,13 @@ export default {
      },
      //方法
      methods: {
-          ...mapActions(indexStore, ["toChinese", "toJapanese"])
+          ...mapActions(indexStore, ["toChinese", "toJapanese"]),
+          //開啟漢堡選單
+          hamburgerOpen() {
+               this.isShow = !this.isShow;
+
+          }
+
 
 
      },
@@ -39,6 +46,28 @@ export default {
 </script>
 
 <template>
+     <!-- 漢堡選單 -->
+     <div v-if="isShow" class="hamburger_list">
+          <div class="icon_area">
+               <Icon v-on:click="hamburgerOpen" class="cross_icon" icon="maki:cross" />
+          </div>
+          <ul class="nav_list">
+               <li>
+                    <RouterLink class="link" to="/">{{ nowLanguage.home }}</RouterLink>
+               </li>
+               <li>
+                    <RouterLink class="link" to="/Resume">{{ nowLanguage.resume }}</RouterLink>
+               </li>
+               <li>
+                    <RouterLink class="link" to="/Project">{{ nowLanguage.project }}</RouterLink>
+               </li>
+               <li>
+                    <RouterLink class="link" to="/Magic">{{ nowLanguage.magic }}</RouterLink>
+               </li>
+          </ul>
+
+
+     </div>
      <div class="container">
           <!-- 語言切換區 -->
           <div class="switch_language_area">
@@ -47,7 +76,9 @@ export default {
           </div>
           <!-- 導覽列-->
           <nav>
-               <ul>
+               <!-- 漢堡按鈕 -->
+               <Icon v-on:click="hamburgerOpen" class="hamburger" @click="toggleNav" icon="solar:hamburger-menu-bold" />
+               <ul class="nav_list">
                     <li>
                          <RouterLink class="link" to="/">{{ nowLanguage.home }}</RouterLink>
                     </li>
@@ -66,6 +97,75 @@ export default {
      </div>
 </template>
 <style lang="scss" scoped>
+.hamburger_list {
+     width: 40vw;
+     height: 100vh;
+     background-color: #F4ECE6;
+     box-shadow: -5px -5px 10px -4px white, -5px 5px 10px -4px white;
+     position: fixed;
+     top: 0;
+     right: 0;
+     z-index: 10;
+
+     .icon_area {
+          display: flex;
+          justify-content: end;
+
+          .cross_icon {
+               margin-top: 0.5remF;
+               font-size: 2rem;
+               cursor: pointer;
+
+               &:hover {
+                    background-color: white;
+                    border-radius: 50%;
+                    color: gray;
+
+
+               }
+
+               &:active {
+                    transform: scale(1);
+               }
+          }
+     }
+
+     .nav_list {
+          list-style: none;
+
+          li {
+               text-align: center;
+               margin: 1rem 0;
+               padding: 1.5rem;
+               transition: all 0.3s ease;
+
+               &:hover {
+                    background-color: white;
+               }
+
+               a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    transition: all 0.5s ease;
+                    font-size: 1.2rem;
+
+                    &:hover {
+                         li{
+                              
+                         }
+                         color: #0050FF;
+                         padding-right: 3.5rem;
+                         padding-left: 0rem;
+                       
+                    }
+               }
+          }
+     }
+
+
+}
+
 .container {
      // border: 2px solid black;
      width: 100vw;
@@ -114,7 +214,22 @@ export default {
           // border: 2px solid green;
           margin-right: 3vw;
 
-          ul {
+          .hamburger {
+               display: none;
+               cursor: pointer;
+               font-size: 2rem;
+               transition: all 0.2s ease;
+
+               &:hover {
+                    transform: scale(1.1);
+               }
+
+               &:active {
+                    transform: scale(1);
+               }
+          }
+
+          .nav_list {
                display: flex;
                flex-wrap: wrap;
                list-style: none;
@@ -151,4 +266,22 @@ export default {
 
 
 }
-</style>
+
+//RWD
+@media screen and (max-width: 1000px) {
+     .container {
+          nav {
+               .hamburger {
+                    display: block; // 顯示漢堡選單按鈕
+               }
+
+               .nav_list {
+                    display: none; // 隱藏原來的導覽列
+                    // ... 樣式 ...
+               }
+
+               // 如果需要，在這裡添加其他在小螢幕上的樣式調整
+          }
+     }
+
+}</style>

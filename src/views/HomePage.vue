@@ -44,7 +44,11 @@ export default {
         <div class="img_box"></div>
         <main>
             <div class="left_area">
-                <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408513419_2579938865504444_3737856097891446704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=mp6-4_yOJuEAX-QPCAY&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCmF_QoqHYXZ9ZRifa32Dggefcl2nTVPfNxQQgNPgaJMg&oe=6575EE57" alt="個人照片">
+                <div class="img_frame">
+                    <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408513419_2579938865504444_3737856097891446704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=mp6-4_yOJuEAX-QPCAY&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCmF_QoqHYXZ9ZRifa32Dggefcl2nTVPfNxQQgNPgaJMg&oe=6575EE57"
+                        alt="個人照片">
+                </div>
+
                 <h1>張瑞升</h1>
                 <h2>{{ nowLanguage.homePageH2 }}</h2>
                 <div class="link_area">
@@ -129,14 +133,26 @@ export default {
             flex-direction: column;
             align-items: center;
 
-            img {
+            .img_frame {
                 margin-top: 1rem;
-                width: 250px;
-                height: 250px;
+                width: 270px;
+                height: 270px;
                 border-radius: 50%;
                 z-index: 2;
+                background-color: white;
+                border: 1px solid gray;
 
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    z-index: 2;
+                    padding: 0.5rem;
+                    transition: all 0.2s ease;
+
+                }
             }
+
 
             h1 {
                 margin-top: 0.5rem;
@@ -182,16 +198,19 @@ export default {
             height: 100%;
             padding: 0.5rem;
             margin-left: 1rem;
-            h3{
+
+            h3 {
                 font-weight: bold;
 
             }
-            h4{
+
+            h4 {
                 font-weight: bold;
 
             }
-            p{
-                white-space:pre-wrap;
+
+            p {
+                white-space: pre-wrap;
                 font-size: 0.9rem;
             }
 
@@ -199,7 +218,6 @@ export default {
                 width: 100%;
                 height: 15%;
                 display: flex;
-                flex-wrap: wrap;
                 justify-content: start;
                 align-items: center;
 
@@ -266,6 +284,89 @@ export default {
 
     to {
         opacity: 1;
+    }
+}
+
+//RWD
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100vw;
+
+
+        .img_box {
+            // display: none;
+        }
+
+
+        height: 70rem;
+
+        main {
+            flex-direction: column;
+            align-items: center;
+
+            .left_area {
+                width: 80vw;
+                height: 150vh;
+
+                .link_area {
+                    // display: none;
+                }
+
+            }
+
+            .right_area {
+                height: 100%;
+                margin-top: 2rem;
+                margin-right: 1rem;
+                padding: 1rem;
+                width: 80vw;
+                box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+                background-color: white;
+                overflow-y: scroll;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90vw;
+        .img_box {
+            display: none;
+        }
+
+
+        main {
+            width: 100%;
+            flex-direction: column;
+            overflow-y: scroll;
+            overflow-x: scroll;
+
+            .left_area {
+                min-width: 25%;
+                overflow-y: scroll;
+
+                .link_area {
+                    display: none;
+                }
+
+            }
+
+            .right_area {
+                min-width: 25%;
+                margin-top: 2rem;
+                margin-right: 1rem;
+                padding: 1rem;
+                box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+                background-color: white;
+                overflow-y: scroll;
+                // .btn_area{
+                //     height: 10%;
+                // }
+            }
+        }
+
     }
 }
 </style>
