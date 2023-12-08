@@ -346,35 +346,45 @@ export default {
 @media screen and (max-width: 900px) {
     .container {
 
+        .main_vedio_area {
+
+
+            .vedio {
+                width: 90vw;
+            }
+        }
 
         .area1 {
 
-           
+
             .info_area {
                 width: 100%;
                 flex-direction: column;
                 align-items: center;
-                .img_area{
+
+                .img_area {
                     margin-right: 10vw;
                 }
-                .info{
+
+                .info {
                     width: 80%;
                     margin-right: 10vw;
                 }
             }
         }
+
         .area2 {
-           
-           .info_area {
-               width: 100%;
-               flex-direction: column;
-               align-items: center;
-               .info{
+
+            .info_area {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+
+                .info {
                     width: 80%;
                 }
-           }
-       }
+            }
+        }
     }
 
-}
-</style>
+}</style>
