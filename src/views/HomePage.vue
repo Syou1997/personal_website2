@@ -58,7 +58,7 @@ export default {
                     </a>
                     <!-- X(twitter) -->
                     <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
-                        <Icon class="icon" icon="simple-icons:x" />
+                        <Icon class="icon" icon="devicon:twitter" />
                     </a>
                     <!-- instagram -->
                     <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/?hl=zh-tw">
