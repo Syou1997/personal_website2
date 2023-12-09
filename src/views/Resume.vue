@@ -169,7 +169,6 @@ export default {
      }
 
      h2 {
-          text-align: center;
           width: 60vw;
           height: 20vh;
           font-size: 2rem;
@@ -290,22 +289,30 @@ export default {
 //RWD
 @media screen and (max-width: 900px) {
      .container {
+          h2 {
+               width: 100vw;
+               margin-bottom: 1rem;
+               text-align: left;
+          }
+
           .bcg_box {
+               width: 80vw;
+
                .frame {
                     flex-direction: column;
 
-                 
-                         .text {
-                              margin-left: 0;
-                         }
-                    
+
+                    .text {
+                         margin-left: 0;
+                    }
+
                }
+
                .frame2 {
                     flex-direction: column;
-                    .left_area area{
-                         ul{
-                              
-                         }
+
+                    .left_area area {
+                         ul {}
                     }
                }
           }
