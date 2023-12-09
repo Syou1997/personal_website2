@@ -185,7 +185,7 @@ export default {
           width: 50vw;
           background-color: white;
           margin: 3rem 0;
-          padding: 1.5rem;
+          padding: 1rem;
 
 
           .frame {
@@ -288,7 +288,7 @@ export default {
 }
 
 //RWD
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
      .container {
           .bcg_box {
                .frame {
@@ -299,6 +299,14 @@ export default {
                               margin-left: 0;
                          }
                     
+               }
+               .frame2 {
+                    flex-direction: column;
+                    .left_area area{
+                         ul{
+                              
+                         }
+                    }
                }
           }
      }
