@@ -385,6 +385,14 @@ export default {
                 }
             }
         }
+
+        .other_vedio_area {
+            .vedio{
+                margin: 2rem 0;
+            }
+
+        }
     }
 
-}</style>
+}
+</style>
