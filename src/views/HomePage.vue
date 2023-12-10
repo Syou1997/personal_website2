@@ -61,7 +61,7 @@ export default {
                         <Icon class="icon" icon="devicon:twitter" />
                     </a>
                     <!-- instagram -->
-                    <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/?hl=zh-tw">
+                    <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/">
                         <Icon class="icon" icon="skill-icons:instagram" />
                     </a>
                     <!-- youtube -->

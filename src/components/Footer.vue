@@ -59,7 +59,7 @@ export default {
                     <i class="fa-brands fa-x-twitter icon"></i>
                 </a>
                 <!-- instagram -->
-                <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/?hl=zh-tw">
+                <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/">
                     <i class="fa-brands fa-instagram icon"></i>
                 </a>
                 <!-- youtube -->
