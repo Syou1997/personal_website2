@@ -60,7 +60,7 @@ export default defineStore("indexStatus", {
                         projectName: "猜數字",
                         projectInfo: "猜數字遊戲。每次會從範圍1~100產生一個答案。",
                         projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408603906_2579938425504488_5015480006797436684_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=wdo7j0QrcasAX8Jnyif&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfAchRomHghb-RcBF-wLAxx17Sc2XYbq2NtOcI2BHZ7lRg&oe=6575A318",
+                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408603906_2579938425504488_5015480006797436684_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=fsuWOZp0dy8AX_DPY_C&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfB0b9sKK9-_ucVbINRICU2rmhak_xhrU13Hd_OmVKvrdQ&oe=657B91D8",
 
                     },
                     {
@@ -81,7 +81,7 @@ export default defineStore("indexStatus", {
                         projectName: "圍棋資訊網",
                         projectInfo: "圍棋的基本介紹及韓國、日本、中國、台灣的圍棋文化介紹。",
                         projectLink: "https://syou1997.github.io/Go_info/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/409183457_2579938558837808_4101711854404086636_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=3_oMIkMnAh8AX-neUsq&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBDTp5qE0SAc4K_q0StkRrCcOhaTCNFVh4wJHE-pGCnPA&oe=6575FB50",
+                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/409183457_2579938558837808_4101711854404086636_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=Uf4wSV5W_8AAX9numhh&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfCrKnC-4Qbeg-okPxIOKCC-qWgQskv1L79Xk0h6Hc7Hew&oe=657BEA10",
 
                     },
                     {
@@ -195,7 +195,7 @@ export default defineStore("indexStatus", {
                         projectName: "数字当てゲーム",
                         projectInfo: "範囲は1から100まで。また、答えは毎回ランダムに生成される。",
                         projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408603906_2579938425504488_5015480006797436684_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=wdo7j0QrcasAX8Jnyif&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfAchRomHghb-RcBF-wLAxx17Sc2XYbq2NtOcI2BHZ7lRg&oe=6575A318",
+                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408603906_2579938425504488_5015480006797436684_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=fsuWOZp0dy8AX_DPY_C&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfB0b9sKK9-_ucVbINRICU2rmhak_xhrU13Hd_OmVKvrdQ&oe=657B91D8",
 
                     },
                     {
@@ -216,7 +216,7 @@ export default defineStore("indexStatus", {
                         projectName: "碁の紹介サイト",
                         projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介。",
                         projectLink: "https://syou1997.github.io/Go_info/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/409183457_2579938558837808_4101711854404086636_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=3_oMIkMnAh8AX-neUsq&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBDTp5qE0SAc4K_q0StkRrCcOhaTCNFVh4wJHE-pGCnPA&oe=6575FB50",
+                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/409183457_2579938558837808_4101711854404086636_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=Uf4wSV5W_8AAX9numhh&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfCrKnC-4Qbeg-okPxIOKCC-qWgQskv1L79Xk0h6Hc7Hew&oe=657BEA10",
 
                     },
                     {
