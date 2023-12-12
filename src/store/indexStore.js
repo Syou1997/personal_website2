@@ -67,14 +67,14 @@ export default defineStore("indexStatus", {
                         projectName: "匯率轉換器",
                         projectInfo: "轉換匯率用的網站，使用方法請看網站內部的說明。",
                         projectLink: "https://exchange-rate3.netlify.app/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/393177681_2579938508837813_70480083684314596_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a73e89&_nc_ohc=G1Jy3GJ-_NcAX84tiDA&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCMjsrIIR75ksalKPZZCIWS8CzKiao5RarlTbSsoL03Rw&oe=657755BF",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/393177681_2579938508837813_70480083684314596_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a73e89&_nc_ohc=b5xxYq-zv3oAX_XILhc&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfDJWBjUE2rSGFO72S-4l4UVJk7SA7QktGihfCxHY4gklQ&oe=657D447F",
 
                     },
                     {
                         projectName: "記帳網站",
                         projectInfo: "計算收支。\n注意事項:\n1.要申請帳號否則無法使用。\n2.收入是正數，支出請填入負數。",
                         projectLink: "https://income-and-expense2.netlify.app/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408562363_2579938665504464_7785218608524072776_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=RRNOBFs1gXUAX86Q0rX&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAI2lCSZetl7hVg0Dow71FuGq8erpI5ZHKEq96s15POPA&oe=6576D5E1",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408562363_2579938665504464_7785218608524072776_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=EZB4wpWKR1EAX_D-vgf&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfAkgbHAZsYuUMGPnQLuLQQHkixgSHrPOdiC91gr3Vat5Q&oe=657CC4A1",
 
                     },
                     {
@@ -88,42 +88,42 @@ export default defineStore("indexStatus", {
                         projectName: "日本旅遊網站首頁",
                         projectInfo: "日本旅遊景點的推薦網站。",
                         projectLink: "https://syou1997.github.io/Japan-travel-website/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408391826_2579938622171135_2087916021538080379_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=44somyMV9XYAX9syGdl&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCwenEokWGUiCxvggiKx1fAiHUpYQUhQ6dWj-PPTDWv7Q&oe=65773444",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408391826_2579938622171135_2087916021538080379_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=eS5pNiaOEf4AX-XWa6l&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfB0BSWBWrkwZsTlpCgyPRPzr5oOC8CmqPlaOdZf-p2Jog&oe=657D2304",
 
                     },
                     {
                         projectName: "人員抽籤系統",
                         projectInfo: "可以隨機抽出一位人員，且能夠指定勾選條件做篩選。",
                         projectLink: "https://syou1997.github.io/ottery-system/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408489431_2579938715504459_6901808783291193796_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=c-ziuxUlgJcAX_rLnkL&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAauCmNYnxf9JbtvZI11kkQrVEFnf0FIKc_ub0sLeVlDw&oe=65771E38",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408489431_2579938715504459_6901808783291193796_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HilUk_-dzwQAX_GLZYQ&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfA3gr7za5tunOGTQhrHgjJ4RvOx5yUW8VDSxcmn-b4BoA&oe=657D0CF8",
 
                     },
                     {
                         projectName: "成績計算網站",
                         projectInfo: "美國大學用來計算成績網站。",
                         projectLink: "https://syou1997.github.io/Grade-calculation/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408451953_2579938572171140_2345978900902617816_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=O7PRlQYwwbgAX9BZql4&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAnap4vYIQsHDQzEJAQqBzi4R6sKTDxnAlCsAetT1AwoA&oe=6576E406",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408451953_2579938572171140_2345978900902617816_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=WEvRU87FSJMAX8ypfzP&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCCUEEEqjJYyf5WqHg8EzRbGflNJ9r5fXibxvJDo423mg&oe=657CD2C6",
 
                     },
                     {
                         projectName: "貪食蛇",
                         projectInfo: "使用方向鍵操控一條長長的蛇不斷吞下果實，同時蛇身隨著吞下的果實不斷變長，當蛇頭撞到蛇身時遊戲結束。",
                         projectLink: "https://syou1997.github.io/Snake/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408477042_2579938785504452_2899885647328074997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a73e89&_nc_ohc=uKaMXnvZUrUAX_XCvsf&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfCwroPImiSXvDSs8JMjACa2aaRyUhnW630QEhRU0e2i-Q&oe=6577343C",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408477042_2579938785504452_2899885647328074997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a73e89&_nc_ohc=CSk6T0_Eq6AAX9YSJK7&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfBiYo5rfIwyraBcvMv30nXtVJtEa_dc_fbTz0-eP1I-4A&oe=657D22FC",
 
                     },
                     {
                         projectName: "打磚塊",
                         projectInfo: "操縱地板控制球的回彈方向，當磚塊被全部打完後遊戲結束。",
                         projectLink: "https://syou1997.github.io/Breakout-clone/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408392242_2579938455504485_6026812806954008686_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=VaoP-Q_Fd54AX-6BCjv&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfBa4QDLMy5CpINWdfy_pGi1lqdlvvEdJtt0cV6LCDzdoQ&oe=65778D94",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408392242_2579938455504485_6026812806954008686_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=MxNSBWuQC1IAX_GydCC&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfAaKeVFD-kVMVitlHHwILaBvYTN0Oa_Iwhu21oYoWzSwg&oe=657D7C54",
 
                     },
                     {
                         projectName: "碼表",
                         projectInfo: "碼表功能的網站。",
                         projectLink: "https://syou1997.github.io/Stopwatch/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408483330_2579938848837779_966283876647294547_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=Q2cIhkaKJ_AAX_weCNu&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBz9Uasy2J-RGHZFhl4ozYtGmBzUTF2YkHLCs0lmNts7g&oe=65769CAC",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408483330_2579938848837779_966283876647294547_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=kSNLBYer_gEAX_TjXD2&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCBBRSeH72h535tgJjIsvacXVSN5ejNNHPv5sB5kyxNlg&oe=657C8B6C",
 
                     },
                 ],
@@ -202,14 +202,14 @@ export default defineStore("indexStatus", {
                         projectName: "為替レートサイト",
                         projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されている。",
                         projectLink: "https://exchange-rate3.netlify.app/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/393177681_2579938508837813_70480083684314596_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a73e89&_nc_ohc=G1Jy3GJ-_NcAX84tiDA&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCMjsrIIR75ksalKPZZCIWS8CzKiao5RarlTbSsoL03Rw&oe=657755BF",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/393177681_2579938508837813_70480083684314596_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a73e89&_nc_ohc=b5xxYq-zv3oAX_XILhc&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfDJWBjUE2rSGFO72S-4l4UVJk7SA7QktGihfCxHY4gklQ&oe=657D447F",
 
                     },
                     {
                         projectName: "家計簿サイト",
                         projectInfo: "収支の現状を把握するサイト。\n注意点:\n1.アカウントを作らないとご利用できない。\n注意点2.収入は金額がプラスに対して支出は金額がマイナス。",
                         projectLink: "https://income-and-expense2.netlify.app/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408562363_2579938665504464_7785218608524072776_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=RRNOBFs1gXUAX86Q0rX&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAI2lCSZetl7hVg0Dow71FuGq8erpI5ZHKEq96s15POPA&oe=6576D5E1",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408562363_2579938665504464_7785218608524072776_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=EZB4wpWKR1EAX_D-vgf&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfAkgbHAZsYuUMGPnQLuLQQHkixgSHrPOdiC91gr3Vat5Q&oe=657CC4A1",
 
                     },
                     {
@@ -223,42 +223,42 @@ export default defineStore("indexStatus", {
                         projectName: "日本の旅行サイトのホームページ",
                         projectInfo: "日本旅行のおすすめ。",
                         projectLink: "https://syou1997.github.io/Japan-travel-website/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408391826_2579938622171135_2087916021538080379_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=44somyMV9XYAX9syGdl&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCwenEokWGUiCxvggiKx1fAiHUpYQUhQ6dWj-PPTDWv7Q&oe=65773444",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408391826_2579938622171135_2087916021538080379_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=eS5pNiaOEf4AX-XWa6l&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfB0BSWBWrkwZsTlpCgyPRPzr5oOC8CmqPlaOdZf-p2Jog&oe=657D2304",
 
                     },
                     {
                         projectName: "メンバーの抽選ツール",
                         projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能。",
                         projectLink: "https://syou1997.github.io/ottery-system/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408489431_2579938715504459_6901808783291193796_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=c-ziuxUlgJcAX_rLnkL&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAauCmNYnxf9JbtvZI11kkQrVEFnf0FIKc_ub0sLeVlDw&oe=65771E38",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408489431_2579938715504459_6901808783291193796_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HilUk_-dzwQAX_GLZYQ&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfA3gr7za5tunOGTQhrHgjJ4RvOx5yUW8VDSxcmn-b4BoA&oe=657D0CF8",
 
                     },
                     {
                         projectName: "成績統計サイト",
                         projectInfo: "アメリカの大学での成績を計算するアプリです。",
                         projectLink: "https://syou1997.github.io/Grade-calculation/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408451953_2579938572171140_2345978900902617816_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=O7PRlQYwwbgAX9BZql4&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAnap4vYIQsHDQzEJAQqBzi4R6sKTDxnAlCsAetT1AwoA&oe=6576E406",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408451953_2579938572171140_2345978900902617816_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=WEvRU87FSJMAX8ypfzP&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCCUEEEqjJYyf5WqHg8EzRbGflNJ9r5fXibxvJDo423mg&oe=657CD2C6",
 
                     },
                     {
                         projectName: "スネーク",
                         projectInfo: "蛇を操作して餌を食べ続けるゲーム。壁にぶつかっても死なないけど、自身にぶつかったらゲームオーバーです。",
                         projectLink: "https://syou1997.github.io/Snake/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408477042_2579938785504452_2899885647328074997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a73e89&_nc_ohc=uKaMXnvZUrUAX_XCvsf&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfCwroPImiSXvDSs8JMjACa2aaRyUhnW630QEhRU0e2i-Q&oe=6577343C",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408477042_2579938785504452_2899885647328074997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a73e89&_nc_ohc=CSk6T0_Eq6AAX9YSJK7&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfBiYo5rfIwyraBcvMv30nXtVJtEa_dc_fbTz0-eP1I-4A&oe=657D22FC",
 
                     },
                     {
                         projectName: "ブレイクアウトクローン",
                         projectInfo: "このゲームでは、ポテンショメータを利用してブレイクアウトクローンゲームをプレイします。",
                         projectLink: "https://syou1997.github.io/Breakout-clone/",
-                        projectImgLink: "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408392242_2579938455504485_6026812806954008686_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=VaoP-Q_Fd54AX-6BCjv&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfBa4QDLMy5CpINWdfy_pGi1lqdlvvEdJtt0cV6LCDzdoQ&oe=65778D94",
+                        projectImgLink: "https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408392242_2579938455504485_6026812806954008686_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=MxNSBWuQC1IAX_GydCC&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfAaKeVFD-kVMVitlHHwILaBvYTN0Oa_Iwhu21oYoWzSwg&oe=657D7C54",
 
                     },
                     {
                         projectName: "ストップウォッチ",
                         projectInfo: "ストップウォッチアプリです。",
                         projectLink: "https://syou1997.github.io/Stopwatch/",
-                        projectImgLink: "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408483330_2579938848837779_966283876647294547_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=Q2cIhkaKJ_AAX_weCNu&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBz9Uasy2J-RGHZFhl4ozYtGmBzUTF2YkHLCs0lmNts7g&oe=65769CAC",
+                        projectImgLink: "https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408483330_2579938848837779_966283876647294547_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=kSNLBYer_gEAX_TjXD2&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCBBRSeH72h535tgJjIsvacXVSN5ejNNHPv5sB5kyxNlg&oe=657C8B6C",
 
                     },
                 ],

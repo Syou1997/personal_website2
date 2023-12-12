@@ -48,7 +48,7 @@ export default {
         <div class="area1">
             <div class="info_area">
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408551140_2579938512171146_7131808705039324415_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=OUZV1wauTDkAX-MCWGt&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfDUtzYGoWXtBNDZ1pe4eVrzJPu54AePVMyS4roJx3svLg&oe=65768320"
+                    <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408551140_2579938512171146_7131808705039324415_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=-Q1gH9D2-4oAX8LIUEm&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfD7UNQf4aT3FhDWJnxwi8okWXPIYKn7dHjKh73MVs7luQ&oe=657C71E0"
                         alt="表演照片">
                 </div>
                 <div class="info">
@@ -80,7 +80,7 @@ export default {
                 </div>
                 <div class="img_area">
                     <div class="img1">
-                        <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/409192527_2579938648837799_3126824195505575562_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a73e89&_nc_ohc=bZ06gJ9OQ_8AX-zcom_&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfADOyVKlzoMHGaFkDpTJi73KC5uh8qhAdh-ta6HVbzmOA&oe=657752C0"
+                        <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/409192527_2579938648837799_3126824195505575562_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a73e89&_nc_ohc=jTO7KOF-Qj8AX__Y1Oo&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCDdGPO74kraGdh-401VWvoZuJRw6o-nZBj_LVDTpvG5Q&oe=657D4180"
                             alt="表演照片">
 
                     </div>
@@ -104,7 +104,7 @@ export default {
 
             <div class="pic_area">
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408402086_2579938702171127_8957810702048681194_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HtF1mc4fXgIAX_6Hmlo&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBnp9iSNoKWmMaGhCPH0MHO09HwhSN3H6aSfV_rYDcHRA&oe=6575D51B"
+                    <img src="https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408402086_2579938702171127_8957810702048681194_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_ohc=AR403mrlytwAX9Mmg3B&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCJN1YiUzrDezCWNsVULx74x8RDEpncBuQ6t1lQfpKSbg&oe=657BC3DB"
                         alt="performancePic">
                 </div>
 
@@ -113,7 +113,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408480633_2579938772171120_6945675150519805126_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=ZyIgw0upPa0AX9acTtR&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAB0irpb7JE58bXnj-8Lp-kkqmvSPdyH6cwcJ8supSw5g&oe=65761B0C"
+                    <img src="https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408480633_2579938772171120_6945675150519805126_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HSvk9MRTSEEAX9KoL7y&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCvsNEn_cMal30DhjQfXTW8OCLtf98T--DW1XJXxQVhpw&oe=657C09CC"
                         alt="performancePic">
                 </div>
             </div>
@@ -121,7 +121,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408500322_2579938815504449_2661424703970969869_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=Y8lYfiObGYkAX_k7wet&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfCHFQWggYgWfw0ImeHcnrGtgdA7qbTuy_eJrRS7Ol1tLA&oe=65763656"
+                    <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408500322_2579938815504449_2661424703970969869_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=6lJ1g4p4JoMAX-7YLNU&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDCMI1IvBG3-5dH9dcYmOxnZuy4RpSmk0xGWd77cQCRlg&oe=657C2516"
                         alt="performancePic">
                 </div>
             </div>

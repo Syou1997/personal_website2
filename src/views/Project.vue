@@ -227,7 +227,7 @@ export default {
 }
 
 //RWD
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1200px) {
     .container{
         .bcg_box{
             height: auto;
