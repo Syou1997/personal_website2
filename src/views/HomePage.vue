@@ -45,7 +45,7 @@ export default {
         <main>
             <div class="left_area">
                 <div class="img_frame">
-                    <img src="https://lh3.googleusercontent.com/pw/ABLVV85bkUEq95kt_XBWD3PSGJHUwIpC23f9oEDD48crPcJ37C3GwAU47SVoBDN5D_CHBnl9oiEB7DGbim8t6RtFMRePVsCFEYqyRsWLHluQ2C_3vgTCZVu9vn4fi87AG9EY5aeuaS_OIsRFuvP8UWsL7zWpcctvnAIngTcpyKBEJPIZYwX27p2hoksJGurHj2GZy1iIAw6D4RzuGLbhX7TJWIZ32Tse3aa75OScJQFsG2T84m4LtJeoAE8jWJG0JiEADjCA_RCt2p5kL0sAuE9Kf3v1xRHmcF-tZ6rzpm0y5IYt0AP32hVJSD1f1v02xrnXsfeFATT1wukmXTFfN8upXyEx4mcddU1zZEbHdRs_eNCyOhWHAT2b2PqEQA7o7l6y8S4SA3nuQHjtUUBKew8i7ptrRv1kB72qYLlCQ2ec-UXcNwsHeyNwNTfCgsKEJJZRQADXfbOnnmz890dyIML4chND8AeLZfqo9NH59tpusN6SDcbVLeGDdX_G9wDrdpc2hdI8jN7f79fiK8hdZThEjG6QQ04yfhjFfCTluP0yeO0-IW2MlDQf8KViBXRizgFn-j0GEMj8JkuYH0Tu5szKwk819Jc7eanIRl5QwpQDsFMJ5V46_u3ZhZ5IVqHoMf8fPjlesckmGfJidfUdSRr--iYsk5IDCnflyTYr2ov0T341n_nH-JlIzsLcZ7Ngc8o0iSxA3o1fJZDxJxiVnbNk31a1-nRFjGLPPQMtwJtSg-uShc-IkeSqdDCcUsrgsDgm-PS5P_pzT2_8ZcZJMyxsxlS2F-SHHoQ7SkjJHjP6Dw5Zn4Uki1W5G1eljEE-3bKKJVLHt_zYb5opof-noGzRb0WWcT0RBluRDEmSoAw9Uoq5F80HOF6n1npaJewSwAhr-Dbg-elk2yjLcSdbTbiPu3yUDso2Hw9QYkJe2A0ZUPfJJ-wXBlf2qxqazLmZS3zwCKwFwGpldfmC81UEFajzHpz_K2HJjRHfdlR4GyhTUez_Cjk2Q2_ofm8ysckx5sb55Dbxmud8z3_YY5wXyeU=w584-h567-s-no-gm?authuser=0"
+                    <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408513419_2579938865504444_3737856097891446704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=xXAFN1jPGUQAX8R3T_D&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfBWV_WfLE-g8FtQE1QLsL-l7s-unff5y_QCkazleloNag&oe=657DD757"
                         alt="個人照片">
                 </div>
 
