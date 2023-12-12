@@ -48,7 +48,7 @@ export default {
         <div class="area1">
             <div class="info_area">
                 <div class="img_area">
-                    <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408551140_2579938512171146_7131808705039324415_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=-Q1gH9D2-4oAX8LIUEm&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfD7UNQf4aT3FhDWJnxwi8okWXPIYKn7dHjKh73MVs7luQ&oe=657C71E0"
+                    <img src="https://lh3.googleusercontent.com/pw/ABLVV85MnryKo4QiUKvTU-fifjX83lf4nsx7D6P5WXtgxQXcWx8Rb7ify6MY2hOlhqZjKqEu7g2knuUqjz0hNd8SIcL33EidlfxjD4mj4CNSOtqa3PfpTrccRN0kiaEQDXrvcdR3j7J-CnHAfawYNpmxSt2hkrGVyyU5t3kMaM0OprY6kXtBeDtfUyE2yYDGRBD6KvjZRdmAhE_7kqWKqjcd0UJy-_ppNmQDaffVNQwfAsqU08ESIpGlLNeGjWvotiD_kG8vGbkusjxw9wLPfESrcFOn6puiDokoAceazgeHEol3rnHGHCoUMzBRZwBjuWlgioKvvhBIHpt1LjWL5dzOVAosEAjoFX-NXzsBd3uN1_laar_CyiyihYVxdGZIIkX5oqV5bJl6rSA-omZ-vpfJQVqC0Tdkh82PMjNZEVVDUUHtd65HvVNZFYEBLk_lRA17FoGwZavSU6etQUSYwk69h5GJ8MogB_JzbejXjPVob1ndyaHJRlZIQuvrD-9jdECDp0PEqmlNZYfTzBkaHeSbejf5RdGNsKode4YdWW-Ca7Lk5YCfz8yI7lR8ron_sfcuFqNCc5WxuyW9I1yF-x_RrzJ02UuvROlHzDnEf1dekQYyRClnenB-7DdiVo5jFBfi7YAi_PRR2VjyPoojSRCK4__q7IrkqlnacqRa0ErK4t1w89ZiZb280pvmC9jbX-Uhh3QxgCjti8VMFws6Lj_ibOplAqPIAYJdom8hEmqdBFp0k6JgmspgDA7upP7a1yzIxY5mB9lJNv8QRif7brZhlwThfvGyHE3RVlRn9eI4zoKFNP00b5nuBHCimm8Omai1qMTJRp1slk1g72V8bSrXGXQ_CF3lDyOtGngPY2rocJl7SXF0cGrQP2Wk2Ae9Yyf50jPr6eM84ETn7sDtz9HIMJ-DQTO6jsJF_sQ2bViET98UcLPypiTEulYbS4M_qx4Rh3ddJEiTh7DpGxgUIw6gyyF0f8vCrPk2X04JH_R-XqwttV_0_De21l9XNvA8K8hA_F3Ckj4sFqhscqKAoNs=w615-h924-s-no-gm?authuser=0"
                         alt="表演照片">
                 </div>
                 <div class="info">
@@ -80,7 +80,7 @@ export default {
                 </div>
                 <div class="img_area">
                     <div class="img1">
-                        <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/409192527_2579938648837799_3126824195505575562_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a73e89&_nc_ohc=jTO7KOF-Qj8AX__Y1Oo&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCDdGPO74kraGdh-401VWvoZuJRw6o-nZBj_LVDTpvG5Q&oe=657D4180"
+                        <img src="https://lh3.googleusercontent.com/pw/ABLVV85YFh7-nMeGVReXl9ADvDzi43VtxdLD0CS11b858fFCZX9jdV5-1N-kzftCbnsdFnYKSafRugBlV6yggVoUhovIBpbY1KVyLVX4aMjq6pw4uN1QmwRvKonirnH62wYL9WGWd7ueAsZQjfJRamNuLcpBMN4MOZb8XoqYtN_vtTQ-2JOcCM-lNFYXF5b9V5UShkF4ZdIgTg013qS7M7kHklHC94hwhSNC-doLnfwnGFixV0LjsOBb_xbl3I8ROQoHvdVC6IuOXmQlBuYsoqSQLv1tpLTNT0ILWDJM4o-lFGlonZZiz3sz2ajnHgLHFXxYTxgVCAzZlCEKBYL2P_F-fscrRwIJHFh_dmLGRypSiYAZVeafP3cbJTI5ylOKdirDigQFsm3vtyJ2W-uhGlry0mVhja9ok4w77gIZ2XQFaGV5XETZj9r6RLutaXt1t04Vb4UvovxQ5aICFos9MnsYlnXWh5pEYtivDFXyZjvziGjdMQCro84xkJwfcY1AsQDT_NQJgnxJyAtoB7o-z__YHjpFb3ihUbUmD19fIAkr_keEZc14SsobpK42NSaqud51nJy2lGQvoFpNsHD53e4oKQ-717u_RPCyqGk20gIkRjU519FU_sDjKh4g12h6S_40W-8X-Lis1bp_tDZMFsNqVBZEuvTJiqvU86NkJiSVaDMhPzUBW1pljElgdwWebmy0NxVDXXR-vrLBohP3EFCQoikxnOft6rIVk29B1xJV6H4qdQwbj4uvXu4B42GSTm40IWJzp3AiwPuscvvTaf6Ugl9Y-rPbYoLELubEgffKIjXh9NNUHMBsQG5hVzkGEnkWoizWSiYNRI-Wdw3Tf8EOpFsSNvRsxwaaAwiNC8zeb_DSDnCDCCIkxa7m1ED-bKGZyuSKGa4nPkKu6-5GWubNuOLAAjwTRusTHKCw7VG75QBH9ZcbsSsIUnt2QNwcGNYcF-1KLtqyk5NKc5ypBDSSi2XIndcz2whNJruKXNkoSwd7aJUoaBbGBBphSzy2gBdYwkQL1MUlP2fvT8hfw2g=w924-h924-s-no-gm?authuser=0"
                             alt="表演照片">
 
                     </div>
@@ -104,7 +104,7 @@ export default {
 
             <div class="pic_area">
                 <div class="img_area">
-                    <img src="https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408402086_2579938702171127_8957810702048681194_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_ohc=AR403mrlytwAX9Mmg3B&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCJN1YiUzrDezCWNsVULx74x8RDEpncBuQ6t1lQfpKSbg&oe=657BC3DB"
+                    <img src="https://lh3.googleusercontent.com/pw/ABLVV86udJo-kDgpoC3eO3KEBJxSOTVFSBRwf5ekNXpTBTr7bUV9tBQxK0u8jej81BLK52gBwufSnokxu3Ea-ayWVm0qBYPk-xVlrBUXrBR26w3sybTzOiJG6XhSVAVun2mClNeCrDnHFScKgAptfTfRzcyU7ji2tyOYxeVIFDNr2DatQGAl2RGWcM1cCc3Cb-Ct2AWtQOMGxLW5fERrc3KemL-quQLxXVE06C911lJPc5RdWcffm0AQS0FBdMFPMSEIYW4BOKBCmcKOiQumuGzEdt5c504HUoIj9Ku1YCpAm8I0pHk1KzGRYZXHM02VmX8jYRdbpL9P8QsXbgYCZZuOjh9Vb9v7COysJUzht-AKSRGt028wuoOaRpfcM0Fwuj8alfARhddZzxsDWqZupl6Xv7fNMLUs8Vtaw1QI_ZlQdbgN8-TSwntElq1suEpV6vp0m3FEJy_N06AUKLEheBF65SHnzoW6hJhuQ3GvtccynX40jeBBXKl1Fjx7FYuNVOmJOHosPdZk5WXHdwEG8J7T2msrz8l3gIZY0N1WRjO_GgNEIzz7OsKATxGNp0rmbbGjs649OVOfHS2ClUOOfsV-dI7kFQiyFjLixk0VZKFJcjS8_PbU7HcOlCm-whnY9GNmJXfn47uBqJLEn7FPTew1b1bRfF1kdU-Y6Wh1qfAasXzOT0M4QiI7iGVtKMiUf-VHZfsz-v6-FoDjjdUFFazKj2jvS8e7wsrqph-EpGSozwPJWF2NL_OzpckuugIvFx8idD5x96pymMO_WFtHpXlbbzJbGN5hsyFeOUgfMBO5llXxd7WSL2zn_hTPvl2A8PR-QERd0mlEJSGoKIpN02_DTzaqPwCMCxo-ZP107Dkc02ayxZZAacyIxj3153k-FjA8ELQTD2tcqu_Gv5TB1ic9BY5hwuF0nFjd_8rFdVJF-wKf27tNuDVDMqqPlxATinFDQM_eH8bA6IhOclTrRGPYJi9CXUDZdlwHFWYng_MINIJP8Tp984GTr7bZPnJ4c1pEp0-uLfjbDemDDIMf4qQ=w1233-h924-s-no-gm?authuser=0"
                         alt="performancePic">
                 </div>
 
@@ -113,7 +113,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/408480633_2579938772171120_6945675150519805126_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HSvk9MRTSEEAX9KoL7y&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCvsNEn_cMal30DhjQfXTW8OCLtf98T--DW1XJXxQVhpw&oe=657C09CC"
+                    <img src="https://lh3.googleusercontent.com/pw/ABLVV86CaCGSFDmuMjWXrElZqXHWBrzQToNoJcKEOB100JPhXEVbfywTA4N90oY6sO_5kzHKgJyRZxaSVpWnlynmzChWpb4U1atN_87F1WfvAI2OMrW9uBzH-6Pq7UHn4cdbbnOHlyO8bjxxULGrwAGWO9t1xO-eoiozNn4O6C2fm4ZVE9jzvTNnBKUNIaw8Mw7Nl34Q_1d27PQg2Y9QloqhUGZgE4b7MTmiEnxiWP0ku8IOebkBCSpq317SoujqWIESOzzoop_Fd8YHJMBI2Q2MzEsOtmaEgM6HjMslZtuuWBI7K1lbMVH01x-9DNCTyfmet0qPT33hF8RwWJ1E0c7Eaom0zSc8Kv5hMXN8bpMD84Gu0iR_anNROHVM4M1fjTLdDf_WO3u5NT9GvkAcu5HGNallJPNwyp-atCI8bd9PNkiM2m_M3k3yZFAVNYQwft5KWc9D8sGehuZFrEbLoZY5UIkC6COeS3dGI83RN3fHsPn2c7BITLhO8Fk_zbHiQy5gAcW1Pj8fXnMrlroi899Z6ZS7mw-qxYU8vrda0-rtZfqS4EUOHIztYtiSrjiNnnGVAnKP2SqWkXD1M8MLmUbtQ0lilAgp4qLqfk34JA-YFhRJQ6mV-9cM6hk4_-fFm8z8e1woeFDAk9c4JPU-g2s5ExG7L0WOUSZsZOn2nzFDRMIHeXyVHQbRPbCKCt9myU7_-k4lBWKbzdjN4xZaDY5xRU7SfoHCjFtdE-vioII_CA3cLRbBEJ9cez1oX0jFsZIQP337MdkAViJCcdMcVcYoM_z5bVouCUZiN_s1uUJ-nhUhM_c90RylIPWEQjdFrNboaJZV_un8LF-zLajNeMhN87QWMJztsrPFeriPIg6CxIHw1dPZz74lAjKVbUD8ELeZdUARvh9xLDKkXg9xWWRTPK3nEDny1Ov9BPJGgdnXUVkBgX2-_nZFDcJMfCcsYBO2PfLYN4ZA1FqGtKOML3m44UPVDZ8b7Ry_zNupV1pm6URD88zvazKSaYiD-83jarBLcUwZz4RFFz2vbB7qHvQ=w1231-h924-s-no-gm?authuser=0"
                         alt="performancePic">
                 </div>
             </div>
@@ -121,7 +121,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/408500322_2579938815504449_2661424703970969869_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=6lJ1g4p4JoMAX-7YLNU&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDCMI1IvBG3-5dH9dcYmOxnZuy4RpSmk0xGWd77cQCRlg&oe=657C2516"
+                    <img src="https://lh3.googleusercontent.com/pw/ABLVV85kWRcMBS9yWEBCnj9xXSietfJ2j4F7YzVlBkI7fD26msA6tMXe1qcSsfOmMNWzRGUVZVISUcSrK72iEg6YYbp1NCFoSQuHLzDUUsBmScJ0ChFbU-2tRwLSOUPP-7dWQZnkoc4COljsA7ASzoLdYzzoFFeI6LfoPfcL3yeK5HGqdgpFuOTYUJjQPpU1p8n5TldIL0hQ8cA5lBc1hM8APNvIIfwBGWbEpCGxV7HMG5HgTyNZw8-COs2LxM0C-Xwr9gS9tyAYDZtN9x4PFJ8cKQBxq0GEvthojH0tcrT4VIiBtt7y7rFiBQPd7pbM51VBWur4vqvOnRN0GHcWItn-x5T9gUCHdr00QrgkJZfH50D6lyP9iYCyUsp22CCdag6VOsd86UTGlo81x7Tq_e01X6eKgyWXMSblqngQtwoU9iChZ38TdIQwPT3HHeFFE5fv0tcn4kw3k_PacmOu-7mbGG9XeK1Osg0h4yytyrLKbWYkWTwQmtak5_9NjD1IcILaIcNfpFi2Jfn14v3QTRlpgdubXNU-t1N7dFmhVS4aY57a0JD8snXGyuKL_mZtt3WvWv14enqicYYnEsDw0JpJrZ46HJJ1Hz9vA0Ool_HWE3NNTozQ2a6758mKFSUdPazSF4mprDIY9PXwnUsukWvRkkG9EiONa3v31xmKF_IeFHs_vbXJ5hDjgLKW3lJ4EGTAsYfqkTOTBnAunowhLHn7DszX6NTEXjlsjZubrPkYaZxTkE77PcYQLMzIf12cSrmiPcJGF1bYU806eJ2fAlbsG-qDTQO0IkuB10QDrdjyh3SNRkCW_cQIl7i_6X2r1KKJ7CtZKvsGAa_kiFhy38mqNYIpwa-MYSu3-MkVXBC7Hy4W6DhNyMd1Tz2xD1m0LWqCWbnxmnzxIsSSZZbm8CP4NWB0rMKvdPclXS1Qh1x_2KRJFchgW88rXFJsJTJySqMFMmyX0R8ZtHQMGtFBSdk_8BnjgXn7Yeaog6x3-LOgvEanPxRTloCH_LrBWqldtXj1NaSRuN2j5wFTD3KAZeM=w1231-h924-s-no-gm?authuser=0"
                         alt="performancePic">
                 </div>
             </div>
