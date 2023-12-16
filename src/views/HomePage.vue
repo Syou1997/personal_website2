@@ -45,7 +45,7 @@ export default {
         <main>
             <div class="left_area">
                 <div class="img_frame">
-                    <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408513419_2579938865504444_3737856097891446704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=xXAFN1jPGUQAX8R3T_D&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfBWV_WfLE-g8FtQE1QLsL-l7s-unff5y_QCkazleloNag&oe=657DD757"
+                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/syou.jpg?raw=true"
                         alt="個人照片">
                 </div>
 

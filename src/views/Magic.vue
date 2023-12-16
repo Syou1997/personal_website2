@@ -48,7 +48,7 @@ export default {
         <div class="area1">
             <div class="info_area">
                 <div class="img_area">
-                    <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/408551140_2579938512171146_7131808705039324415_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=-Q1gH9D2-4oAX9PkNp-&_nc_ht=scontent-tpe1-1.xx&oh=00_AfCROVbHoJFKZXWxlVRzMOoqS2PhoMpuIUo7_fYq6KKEgw&oe=657C71E0"
+                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/magic.JPG?raw=true"
                         alt="表演照片">
                 </div>
                 <div class="info">
@@ -80,7 +80,7 @@ export default {
                 </div>
                 <div class="img_area">
                     <div class="img1">
-                        <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/409192527_2579938648837799_3126824195505575562_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a73e89&_nc_ohc=jTO7KOF-Qj8AX-U_oOU&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfAPaSdUakEWGujQwu7ibgpNNuTG_XbOOMNV0ADoVLU6JA&oe=657D4180"
+                        <img src="https://github.com/Syou1997/personal_website2/blob/main/image/Mantra.jpg?raw=true"
                             alt="表演照片">
 
                     </div>
@@ -104,7 +104,7 @@ export default {
 
             <div class="pic_area">
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408402086_2579938702171127_8957810702048681194_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_ohc=VJ1I_98SefkAX91s5WF&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfBrmZEuHfZ7U1GooqT9DzJUcXmG02COAyj-ks_3KjIQVg&oe=657DBE1B"
+                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/performance1.jpg?raw=true"
                         alt="performancePic">
                 </div>
 
@@ -113,7 +113,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/408480633_2579938772171120_6945675150519805126_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=a73e89&_nc_ohc=HSvk9MRTSEEAX_v3uuN&_nc_ht=scontent.fkhh1-1.fna&oh=00_AfCSlSuvvJC1KhorwsbFwXpUukYkmnM7UEfo9QeRoueV3Q&oe=657E040C"
+                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/performance2.JPEG?raw=true"
                         alt="performancePic">
                 </div>
             </div>
@@ -121,7 +121,7 @@ export default {
             <div class="pic_area">
 
                 <div class="img_area">
-                    <img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/408500322_2579938815504449_2661424703970969869_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a73e89&_nc_ohc=6lJ1g4p4JoMAX9LcjHv&_nc_ht=scontent.fkhh1-2.fna&oh=00_AfD3RAO5DWVZ2jJ6X7xtSzm8HdotkiN9Dhh0MNX83_6DTw&oe=657E1F56"
+                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/performance3.JPG?raw=true"
                         alt="performancePic">
                 </div>
             </div>
