@@ -126,6 +126,13 @@ export default defineStore("indexStatus", {
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
 
                     },
+                    {
+                        projectName: "代辦事項",
+                        projectInfo: "記錄代辦事項的網站。",
+                        projectLink: "https://syou1997.github.io/todoList/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
+
+                    },
                 ],
 
             //Magic
@@ -259,6 +266,13 @@ export default defineStore("indexStatus", {
                         projectInfo: "ストップウォッチアプリです。",
                         projectLink: "https://syou1997.github.io/Stopwatch/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
+
+                    },
+                    {
+                        projectName: "やることリスト",
+                        projectInfo: "やることを管理するWebアプリケーション。",
+                        projectLink: "https://syou1997.github.io/todoList/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
 
                     },
                 ],
