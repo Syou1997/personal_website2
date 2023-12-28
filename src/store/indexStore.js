@@ -200,42 +200,42 @@ export default defineStore("indexStatus", {
                 [
                     {
                         projectName: "数字当てゲーム",
-                        projectInfo: "範囲は1から100まで。また、答えは毎回ランダムに生成される。",
+                        projectInfo: "範囲は1から100まで。また、答えは毎回ランダムに生成されます。",
                         projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
 
                     },
                     {
                         projectName: "為替レートサイト",
-                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されている。",
+                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されています。",
                         projectLink: "https://exchange-rate3.netlify.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
 
                     },
                     {
                         projectName: "家計簿サイト",
-                        projectInfo: "収支の現状を把握するサイト。\n注意点:\n1.アカウントを作らないとご利用できない。\n注意点2.収入は金額がプラスに対して支出は金額がマイナス。",
+                        projectInfo: "収支の現状を把握するサイトです。\n注意点:\n1.アカウントを作らないとご利用できない。\n2.収入は金額がプラスに対して支出は金額がマイナス。",
                         projectLink: "https://income-and-expense2.netlify.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
 
                     },
                     {
                         projectName: "碁の紹介サイト",
-                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介。",
+                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介です。",
                         projectLink: "https://syou1997.github.io/Go_info/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
 
                     },
                     {
                         projectName: "日本の旅行サイトのホームページ",
-                        projectInfo: "日本旅行のおすすめ。",
+                        projectInfo: "日本旅行のおすすめです。",
                         projectLink: "https://syou1997.github.io/Japan-travel-website/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
 
                     },
                     {
                         projectName: "メンバーの抽選ツール",
-                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能。",
+                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能です。",
                         projectLink: "https://syou1997.github.io/ottery-system/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
 
@@ -270,7 +270,7 @@ export default defineStore("indexStatus", {
                     },
                     {
                         projectName: "やることリスト",
-                        projectInfo: "やることを管理するWebアプリケーション。",
+                        projectInfo: "やることを管理するWebアプリケーションです。",
                         projectLink: "https://syou1997.github.io/todoList/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
 
