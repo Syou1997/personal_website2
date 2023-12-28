@@ -85,6 +85,7 @@ export default {
     align-items: center;
     width: 100vw;
     height: 18vh;
+    pointer-events: none;
 
 
     h4 {
