@@ -66,6 +66,7 @@ export default {
                 <a target="_blank" href="https://www.youtube.com/channel/UCWs7mmEuhyz9ze2O1QUFpiA">
                     <i class="fa-brands fa-youtube icon"></i>
                 </a>
+
             </div>
 
 
@@ -84,7 +85,6 @@ export default {
     align-items: center;
     width: 100vw;
     height: 18vh;
-    // pointer-events: none;
 
 
     h4 {
@@ -105,7 +105,6 @@ export default {
             flex-wrap: wrap;
             justify-content: space-between;
 
-
             .icon {
                 transition: all 0.3s ease;
                 cursor: pointer;
@@ -117,9 +116,6 @@ export default {
                 }
 
             }
-
-
-
 
 
         }
