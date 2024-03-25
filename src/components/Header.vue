@@ -64,6 +64,9 @@ export default {
                <li>
                     <RouterLink class="link" to="/Magic">{{ nowLanguage.magic }}</RouterLink>
                </li>
+               <li>
+                    <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
+               </li>
           </ul>
 
 
@@ -90,6 +93,9 @@ export default {
                     </li>
                     <li>
                          <RouterLink class="link" to="/Magic">{{ nowLanguage.magic }}</RouterLink>
+                    </li>
+                    <li>
+                         <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
                     </li>
                </ul>
           </nav>
@@ -151,13 +157,12 @@ export default {
                     font-size: 1.2rem;
 
                     &:hover {
-                         li{
-                              
-                         }
+                         li {}
+
                          color: #0050FF;
                          padding-right: 3.5rem;
                          padding-left: 0rem;
-                       
+
                     }
                }
           }
@@ -284,4 +289,5 @@ export default {
           }
      }
 
-}</style>
+}
+</style>

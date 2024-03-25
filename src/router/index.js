@@ -4,6 +4,7 @@ import HomePage from '../views/HomePage.vue'
 import Resume from '../views/Resume.vue'
 import Project from '../views/Project.vue'
 import Magic from '../views/Magic.vue'
+import JT from '../views/JT.vue'
 
 
 
@@ -36,6 +37,11 @@ const router = createRouter({
           path: 'Magic',
           name: 'Magic',
           component: Magic,
+        },
+        {
+          path: 'JT',
+          name: 'JT',
+          component: JT,
         },
         
       ]
