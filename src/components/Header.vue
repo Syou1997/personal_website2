@@ -64,9 +64,9 @@ export default {
                <li>
                     <RouterLink class="link" to="/Magic">{{ nowLanguage.magic }}</RouterLink>
                </li>
-               <li>
+               <!-- <li>
                     <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
-               </li>
+               </li> -->
           </ul>
 
 
@@ -94,9 +94,9 @@ export default {
                     <li>
                          <RouterLink class="link" to="/Magic">{{ nowLanguage.magic }}</RouterLink>
                     </li>
-                    <li>
+                    <!-- <li>
                          <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
-                    </li>
+                    </li> -->
                </ul>
           </nav>
 
