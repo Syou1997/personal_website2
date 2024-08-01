@@ -52,7 +52,7 @@ export default {
 </script>
 
 <template>
-    <button class="back_to_top" type="button"><a href="#top">Top</a></button>
+    <a href="#top"><button class="back_to_top" type="button">TOP</button></a>
     <div id="top" class="container">
         <h1>{{ nowLanguage.project }}</h1>
         <div v-for="(item, index) in nowLanguage.projectList" :key="index" class="bcg_box">
@@ -73,39 +73,37 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.back_to_top {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 4vw;
-    display: block;
-    background-color: #0050FF;
-    border: none;
-    border: 2px solid white;
-    cursor: pointer;
-    transition: all 0.2s ease;
+a {
+     font-weight: bold;
+     
+     .back_to_top {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          min-width: 50px;
+          min-height: 30px;
+          display: block;
+          background-color: #0050FF;
+          border: none;
+          border: 2px solid white;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          color: white;
 
 
-    &:hover {
-        scale: 1.1;
-        background-color: white;
-        border: 2px solid #0050FF;
+          &:hover {
+               scale: 1.1;
+               background-color: white;
+               border: 2px solid #0050FF;
+               color: black;
 
-        a {
-            color: black;
-        }
-    }
+          }
 
-    &:active {
-        scale: 0.95;
-    }
+          &:active {
+               scale: 0.95;
+          }
 
-    a {
-        text-decoration: none;
-        color: white;
-        font-size: 1vw;
-        font-weight: 600;
-    }
+     }
 
 }
 
