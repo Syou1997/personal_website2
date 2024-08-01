@@ -134,6 +134,13 @@ export default defineStore("indexStatus", {
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
 
                     },
+                    {
+                        projectName: "ASANOYA淺野屋本店-研修網站",
+                        projectInfo: "ASANOYA淺野屋本店的新人研修網站。網站密碼請詢問網站管理人。",
+                        projectLink: "https://asanoya.vercel.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/asanoya.png?raw=true",
+
+                    },
                 ],
 
             //Magic
@@ -275,6 +282,13 @@ export default defineStore("indexStatus", {
                         projectInfo: "やることを管理するWebアプリケーションです。",
                         projectLink: "https://syou1997.github.io/todoList/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
+
+                    },
+                    {
+                        projectName: "ブランジェ浅野屋軽井沢旧道本店-研修サイト",
+                        projectInfo: "ブランジェ浅野屋軽井沢旧道本店の新人研修用のサイト。\nパスポートはサイトの管理者にお尋ねください。",
+                        projectLink: "https://asanoya.vercel.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/asanoya.png?raw=true",
 
                     },
                 ],
