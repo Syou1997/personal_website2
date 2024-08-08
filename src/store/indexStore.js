@@ -298,7 +298,7 @@ export default defineStore("indexStatus", {
 
                     },
                     {
-                        projectName: "会社内部管理システムy",
+                        projectName: "会社内部管理システム",
                         projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
                         projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
                         projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
