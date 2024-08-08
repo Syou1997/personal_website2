@@ -39,9 +39,12 @@ export default defineStore("indexStatus", {
             resumeYear4: "2019年 3月 - 8月",
             resumeTitle4: "韓國濟州觀光大學交換留學",
             resumeText4: "邊在學校語學堂學習的韓語，邊參與學校的日語課程。在這半年間，體驗韓國文化、品嘗了當地的美食也與來自各個國家的人交流。",
-            resumeYear5: "2020年 - 2023年",
+            resumeYear5: "2020年7月 - 2023年5月",
             resumeTitle5: "台灣百佳泰 Driver測試工程師",
             resumeText5: "主要的工作內容是驅動測試與驗證、測試環境準備、機器組裝、作為PL的驅動測試的評價管理。",
+            resumeYear5: "2023年 7月 - 2024年 1月",
+            resumeTitle5: "台南應用科技大學國際產訓中心\n「JAVA全端整合Web實務運用」\n課程結訓",
+            resumeText5: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n相關作品請參考「作品集」分頁",
             //證照
             certificate: "證照",
             certificate1: "JLPT 日本語能力試驗 N1",
