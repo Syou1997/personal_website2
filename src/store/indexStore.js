@@ -211,7 +211,7 @@ export default defineStore("indexStatus", {
             resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、Web制作の能力を一定的に獲得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照ください。",
             resumeYear7: "2024年 7月 - 現在",
             resumeTitle7: "BOULANGERIE ASANOYA\n日本でのワーキングホリデー",
-            resumeText7: "ワーキングホリデーのビザを使い、「BOULANGERIE ASANOYA」で販売員としてアルバイトしている。日本人だけでなく，台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしている。",
+            resumeText7: "ワーキングホリデーのビザを通じて「BOULANGERIE ASANOYA」で販売員としてアルバイトしている。日本人だけでなく，台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしている。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
