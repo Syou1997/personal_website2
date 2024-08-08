@@ -54,6 +54,20 @@ export default {
           <div class="bcg_box">
                <div class="frame">
                     <div class="info">
+                         <h6 class="year">{{ nowLanguage.resumeYear7 }}</h6>
+                         <h3 class="title">{{ nowLanguage.resumeTitle7 }}</h3>
+                    </div>
+                    <p class="text">{{ nowLanguage.resumeText7 }}</p>
+               </div>
+               <div class="frame">
+                    <div class="info">
+                         <h6 class="year">{{ nowLanguage.resumeYear6 }}</h6>
+                         <h3 class="title">{{ nowLanguage.resumeTitle6 }}</h3>
+                    </div>
+                    <p class="text">{{ nowLanguage.resumeText6 }}</p>
+               </div>
+               <div class="frame">
+                    <div class="info">
                          <h6 class="year">{{ nowLanguage.resumeYear5 }}</h6>
                          <h3 class="title">{{ nowLanguage.resumeTitle5 }}</h3>
                     </div>

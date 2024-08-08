@@ -42,9 +42,13 @@ export default defineStore("indexStatus", {
             resumeYear5: "2020年7月 - 2023年5月",
             resumeTitle5: "台灣百佳泰 Driver測試工程師",
             resumeText5: "主要的工作內容是驅動測試與驗證、測試環境準備、機器組裝、作為PL的驅動測試的評價管理。",
-            resumeYear5: "2023年 7月 - 2024年 1月",
-            resumeTitle5: "台南應用科技大學國際產訓中心\n「JAVA全端整合Web實務運用」\n課程結訓",
-            resumeText5: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n相關作品請參考「作品集」分頁",
+            resumeYear6: "2023年 7月 - 2024年 1月",
+            resumeTitle6: "台南應用科技大學國際產訓中心\n「JAVA全端整合Web實務運用」\n課程結訓",
+            resumeText6: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n\n相關作品請參考「作品集」分頁。",
+            resumeYear7: "2024年 7月 - 現在",
+            resumeTitle7: "BOULANGERIE ASANOYA\n日本打工度假",
+            resumeText7: "透過日本打工度假簽證在「ASANOYA淺野屋店」販賣部的店員。除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
+
             //證照
             certificate: "證照",
             certificate1: "JLPT 日本語能力試驗 N1",
@@ -131,6 +135,13 @@ export default defineStore("indexStatus", {
 
                     },
                     {
+                        projectName: "公司內部管理系統",
+                        projectInfo: "使用了前端、後端、資料庫。\n內容包含「登入系統」與「請假系統」。",
+                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
+
+                    },
+                    {
                         projectName: "代辦事項",
                         projectInfo: "記錄代辦事項的網站。",
                         projectLink: "https://syou1997.github.io/todoList/",
@@ -195,6 +206,12 @@ export default defineStore("indexStatus", {
             resumeYear5: "2020年 - 2023年",
             resumeTitle5: "台湾アリオン ドライバーテスターエンジニア",
             resumeText5: "主にドライバーの評価と検証、評価環境の用意、パソコンの組み立て、PLとしての評価管理でした。",
+            resumeYear6: "2023年 7月 - 2024年 1月",
+            resumeTitle6: "「台南應用科技大學國際產訓中心」という台湾の大学で\n「JAVA全端整合Web實務運用」というWebサイトの制作の授業\n研修終了",
+            resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、Web制作の能力を一定的に獲得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照ください。",
+            resumeYear7: "2024年 7月 - 現在",
+            resumeTitle7: "BOULANGERIE ASANOYA\n日本でのワーキングホリデー",
+            resumeText7: "ワーキングホリデーのビザを使い、「BOULANGERIE ASANOYA」で販売員としてアルバイトしている。日本人だけでなく，台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしている。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
@@ -278,6 +295,13 @@ export default defineStore("indexStatus", {
                         projectInfo: "ストップウォッチアプリです。",
                         projectLink: "https://syou1997.github.io/Stopwatch/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
+
+                    },
+                    {
+                        projectName: "会社内部管理システムy",
+                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
+                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
 
                     },
                     {
