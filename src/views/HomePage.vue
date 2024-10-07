@@ -68,6 +68,10 @@ export default {
                     <a target="_blank" href="https://www.youtube.com/channel/UCWs7mmEuhyz9ze2O1QUFpiA">
                         <Icon class="icon" icon="logos:youtube-icon" />
                     </a>
+                    <!-- blog -->
+                    <a target="_blank" href="https://syoulive.com/">
+                        <img style="border-radius: 50%;" class="icon" src="./../../image/ICONS/blogIcon.svg.svg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="right_area">
@@ -332,6 +336,7 @@ export default {
 @media screen and (max-width: 480px) {
     .container {
         width: 90vw;
+
         .img_box {
             display: none;
         }
@@ -370,4 +375,3 @@ export default {
     }
 }
 </style>
-

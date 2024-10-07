@@ -66,7 +66,10 @@ export default {
                 <a target="_blank" href="https://www.youtube.com/channel/UCWs7mmEuhyz9ze2O1QUFpiA">
                     <i class="fa-brands fa-youtube icon"></i>
                 </a>
-
+                <!-- blog -->
+                <a target="_blank" href="https://syoulive.com/">
+                    <i class="fa-solid fa-user-pen icon"></i>
+                </a>
             </div>
 
 
@@ -85,7 +88,7 @@ export default {
     align-items: center;
     width: 100vw;
     height: 18vh;
-    pointer-events: none;
+    // pointer-events: none;
 
 
     h4 {

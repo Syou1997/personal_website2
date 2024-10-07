@@ -52,7 +52,7 @@ export default {
 </script>
 
 <template>
-    <a href="#top"><button class="back_to_top" type="button">TOP</button></a>
+    <a href="#top"><button class="back_to_top" type="button"></button></a>
     <div id="top" class="container">
         <h1>{{ nowLanguage.project }}</h1>
         <div v-for="(item, index) in nowLanguage.projectList" :key="index" class="bcg_box">
@@ -74,36 +74,41 @@ export default {
 
 <style lang="scss" scoped>
 a {
-     font-weight: bold;
-     
-     .back_to_top {
-          position: fixed;
-          right: 0;
-          bottom: 0;
-          min-width: 50px;
-          min-height: 30px;
-          display: block;
-          background-color: #0050FF;
-          border: none;
-          border: 2px solid white;
-          cursor: pointer;
-          transition: all 0.2s ease;
-          color: white;
+    font-weight: bold;
+
+    .back_to_top {
+        position: fixed;
+        right: 0;
+        top: 10rem;
+        width: 6vw;
+        height: 6vw;
+        min-width: 40px;
+        min-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0050FF;
+        border: none;
+        border: 2px solid white;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        color: white;
+        clip-path: polygon(30% 120%, 70% 100%, 70% 60%, 100% 60%, 50% 0, 0 60%, 30% 60%);
 
 
-          &:hover {
-               scale: 1.1;
-               background-color: white;
-               border: 2px solid #0050FF;
-               color: black;
 
-          }
+        &:hover {
+            scale: 1.1;
+            background-color: white;
+            color: black;
 
-          &:active {
-               scale: 0.95;
-          }
+        }
 
-     }
+        &:active {
+            scale: 0.95;
+        }
+
+    }
 
 }
 
@@ -226,15 +231,18 @@ a {
 
 //RWD
 @media screen and (max-width: 1200px) {
-    .container{
-        .bcg_box{
+    .container {
+        .bcg_box {
             height: auto;
-            .frame{
+
+            .frame {
                 flex-direction: column;
-                .info{
+
+                .info {
                     width: 90%;
                 }
-                .img_frame{
+
+                .img_frame {
                     width: 80%;
                 }
             }
@@ -242,5 +250,14 @@ a {
     }
 
 }
-</style>
 
+
+// @media screen and (max-width: 500px) {
+// a{
+//     .back_to_top{
+//         bottom: 21rem;
+//     }
+// }
+
+// }
+</style>

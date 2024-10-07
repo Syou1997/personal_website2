@@ -149,7 +149,7 @@ export default defineStore("indexStatus", {
 
                     },
                     {
-                        projectName: "ASANOYA淺野屋本店-研修網站",
+                        projectName: "淺野屋本店-研修網站",
                         projectInfo: "ASANOYA淺野屋本店的新人研修網站。網站密碼請詢問網站管理人。",
                         projectLink: "https://asanoya.vercel.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/asanoya.png?raw=true",
