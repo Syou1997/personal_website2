@@ -12,6 +12,7 @@ export default {
     },
     data() {
         return {
+            picShow: false,
 
         }
     },
@@ -24,7 +25,15 @@ export default {
     },
     //方法
     methods: {
-        ...mapActions(indexStore, ["toChinese", "toJapanese"])
+        ...mapActions(indexStore, ["toChinese", "toJapanese"]),
+        isShowOn() {
+            this.picShow = !this.picShow;
+
+        },
+        isShowOff() {
+            this.picShow = !this.picShow;
+
+        }
 
 
     },
@@ -40,15 +49,18 @@ export default {
 
 <template>
     <div class="container">
-
         <div class="img_box"></div>
         <main>
             <div class="left_area">
                 <div class="img_frame">
-                    <img src="https://github.com/Syou1997/personal_website2/blob/main/image/syou.jpg?raw=true"
+                    <img title="查看大頭照" v-on:click="isShowOn" src="https://raw.githubusercontent.com/Syou1997/personal_website2/f590b4f95c103f860bbbe59f1c97d84285173b4e/image/syou2.jpg"
                         alt="個人照片">
                 </div>
-
+                <div v-if="picShow" class="imgZoom">
+                    <img v-on:click="isShowOff" class="pic"
+                        src="https://raw.githubusercontent.com/Syou1997/personal_website2/f590b4f95c103f860bbbe59f1c97d84285173b4e/image/syou2.jpg"
+                        alt="個人照片放大">
+                </div>
                 <h1>張瑞升</h1>
                 <br>
                 <h2>{{ nowLanguage.homePageH2 }}</h2>
@@ -114,6 +126,7 @@ export default {
         height: 100%;
         background-color: #E6DACE;
         z-index: -1;
+
     }
 
     main {
@@ -146,6 +159,9 @@ export default {
                 z-index: 2;
                 background-color: white;
                 border: 1px solid gray;
+                &:hover {
+                    box-shadow: rgb(153, 151, 151) 6px 5px 10px;
+                    }
 
                 img {
                     width: 100%;
@@ -153,9 +169,36 @@ export default {
                     border-radius: 50%;
                     z-index: 2;
                     padding: 0.5rem;
-                    transition: all 0.2s ease;
+                    transition: all 0.25s ease;
+                    cursor: pointer;
 
+                    &:hover {
+                        scale: 1.085;
+                    }
+
+                    &:active {
+                        scale: 0.98;
+                    }
                 }
+            }
+
+            .imgZoom {
+                // border: 2px solid blue;
+                position: absolute;
+                top: 40%;
+                left: 100%;
+                width: 50vw;
+                height: 50vw;
+                transform: translate(-50%, -50%);
+                z-index: 100;
+
+                .pic {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    cursor: pointer;
+                }
+
             }
 
 
@@ -316,6 +359,25 @@ export default {
                 .link_area {
                     // display: none;
                 }
+
+                .imgZoom {
+                // border: 2px solid blue;
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                min-width: 180px;
+                min-height: 180px;
+                transform: translate(-130%, -45%);
+                z-index: 100;
+
+                .pic {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    cursor: pointer;
+                }
+
+            }
 
             }
 

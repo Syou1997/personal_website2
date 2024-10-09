@@ -183,7 +183,7 @@ export default defineStore("indexStatus", {
             homePageH3: "「変化以外に永久のものはない」",
             homePageP1: "これは古代ギリシアの哲学者ヘラクレイトスが言った言葉です。私たちが送っている毎日はくるくる変わっていくものです。良いことであろうと悪いことであろうと、変化にに立ち向かい、面白くて素敵な毎日を送ることが私の目標です。",
             homePageH4: "私について",
-            homePageP2: "台湾明道大学 応用日本語学科を卒業し、二年生はマジック部長、三年生は日本に留学し、四年生は韓国に留学しました。2020年~2023台湾アリオンでドライバーテストエンジニアを担当していました。2023年からWebの開発を勉強し始めました。2024年日本にワーキングホリデーに行きました。\n\nスキル\n日本語:\n50音授業、フリートーク、日常会話、日本語能力試験 N5~N2授業、アテンド通訳。日本人だと勘違いされるぐらい良い発音を持ち，分かりやすい例文や絵を使い、「分かりやすく説明できる」は特徴です。\n\n手品:\n近距離手品、パーティー手品、近距離手品の指導。トランプマジックが一番得意です。また、カードフラリッシュもできます。\n\nWebサイト制作:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL\n\nYoutube:\n2024からユーチューブを取り始めて、旅行のVLOGを中心に投稿しています。\n\nブログ:\n2024からブログを書き始めて、旅行、日本語勉強と台日生活など、色々な記事を書いています。",
+            homePageP2: "台湾明道大学 応用日本語学科を卒業し、二年生はマジック部長、三年生は日本に留学し、四年生は韓国に留学しました。2020年~2023台湾アリオンでドライバーテストエンジニアを担当していました。2023年からWebの開発を勉強し始めました。2024年日本にワーキングホリデーに行きました。\n\nスキル\n日本語:\n50音授業、フリートーク、日常会話、日本語能力試験 N5~N2授業、アテンド通訳。日本人だと勘違いされるぐらい良い発音を持ち，分かりやすい例文や絵を使い、「分かりやすく説明できる」は特徴です。\n\n手品:\n近距離手品、パーティー手品、近距離手品の指導。トランプマジックが一番得意です。また、カーディストリーもできます。\n\nWebサイト制作:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\nYoutube:\n2024からユーチューブを撮り始めて、旅行のVLOGを中心に投稿しています。\n\nブログ:\n2024からブログを書き始めて、旅行、日本語勉強と台日生活など、色々な記事を書いています。",
             //Resume分頁
             //學歷
             education: "学歴",
@@ -208,10 +208,10 @@ export default defineStore("indexStatus", {
             resumeText5: "主にコンピューターのドライバーの評価と検証、評価環境の用意、パソコンの組み立て、PLとしての評価管理でした。",
             resumeYear6: "2023年 7月 - 2024年 1月",
             resumeTitle6: "「台南應用科技大學國際產訓中心」という台湾の大学で\n「JAVA全端整合Web實務運用」というWebサイトの制作の授業\n研修終了",
-            resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、Web制作の能力を一定的に獲得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照ください。",
+            resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度にWeb制作の能力を獲得しました。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照ください。",
             resumeYear7: "2024年 7月 - 現在",
             resumeTitle7: "BOULANGERIE ASANOYA\n日本でのワーキングホリデー",
-            resumeText7: "ワーキングホリデーのビザを通じて「BOULANGERIE ASANOYA」で販売員としてアルバイトしている。日本人だけでなく，台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしています。",
+            resumeText7: "ワーキングホリデーのビザを通じて「BOULANGERIE ASANOYA」で販売員としてアルバイトしています。日本人だけでなく、台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしています。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
@@ -222,7 +222,7 @@ export default defineStore("indexStatus", {
             certificate6: "TQC 日本語入力レベル 3",
             //技能
             skill: "スキル",
-            skill1: "日本語の先生",
+            skill1: "日本語",
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList:
@@ -243,7 +243,7 @@ export default defineStore("indexStatus", {
                     },
                     {
                         projectName: "家計簿サイト",
-                        projectInfo: "収支の現状を把握するサイトです。\n注意点:\n1.アカウントを作らないとご利用できない。\n2.収入は金額がプラスに対して支出は金額がマイナス。",
+                        projectInfo: "収支の現状を把握するサイトです。\n注意点:\n1.アカウントを作らないとご利用できないです。\n2.収入は金額がプラスに対して支出は金額がマイナスです。",
                         projectLink: "https://income-and-expense2.netlify.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
 
@@ -264,7 +264,7 @@ export default defineStore("indexStatus", {
                     },
                     {
                         projectName: "メンバーの抽選ツール",
-                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能です。",
+                        projectInfo: "ランダムに一名のメンバーが抽選されます。チェックボックスによる条件付きの抽選も可能です。",
                         projectLink: "https://syou1997.github.io/ottery-system/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
 
@@ -278,7 +278,7 @@ export default defineStore("indexStatus", {
                     },
                     {
                         projectName: "スネーク",
-                        projectInfo: "蛇を操作して餌を食べ続けるゲーム。壁にぶつかっても死なないけど、自身にぶつかったらゲームオーバーです。",
+                        projectInfo: "蛇を操作して餌を食べ続けるゲームです。壁にぶつかっても死なないけど、自身にぶつかったらゲームオーバーです。",
                         projectLink: "https://syou1997.github.io/Snake/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
 
@@ -299,7 +299,7 @@ export default defineStore("indexStatus", {
                     },
                     {
                         projectName: "会社内部管理システム",
-                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
+                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついています。",
                         projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
                         projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
 
@@ -323,8 +323,8 @@ export default defineStore("indexStatus", {
             magicH1: "私たちが経験できる最も美しいものは神秘である - アルベルト・アインシュタイン (1879-1955)",
             magicH2_1: "手品",
             magicH3_1: "15歳から独学で手品を学び始め、今まで10年以上経ちました。観客とコミュニケーションを取る近距離マジック(close-up magic)が一番得意で特にトランプマジックです。大学二年生の時、部長を担当し、その期間に校内みならず、外でも多くのところで実演しました。例えば：学園祭、クリスマスパーティー、小学校、忘年会。社会に出てもスキルを磨き続いております。一生やり続ける趣味です。",
-            magicH2_2: "カード・フラリッシュ",
-            magicH3_2: "2021年にネットで見たTobias Levinの動画がきっかけに、北欧スタイルのカード・フラリッシュにハマりました。特にCombo。その後Tobiasの技をはじめとして学び始めた。これは手品と違って、トランプを操る技術を重視されていて、すごくかっこいいジャグリングだと思います。好きな技は:Flip Phone、Barolo2、Legolove、Bloom、Mantra、Skirt、Fairfax。",
+            magicH2_2: "カーディストリー",
+            magicH3_2: "2021年にネットで見たTobias Levinの動画がきっかけに、北欧スタイルのカーディストリーにハマりました。特にCombo。その後Tobiasの技をはじめとして学び始めた。これは手品と違って、トランプを操る技術を重視されていて、すごくかっこいいジャグリングだと思います。好きな技は:Flip Phone、Barolo2、Legolove、Bloom、Mantra、Skirt、Fairfax。",
             magicH4_1: "実演写真",
             //影片區
             magicH4_2: "実演動画",

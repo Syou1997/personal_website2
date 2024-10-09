@@ -142,7 +142,7 @@ export default {
             <iframe class="vedio" src="https://www.youtube.com/embed/kDbrkZdu_yQ?autoplay=1" frameborder="0"
                 allowfullscreen></iframe>
 
-            <iframe class="vedio" src="https://www.youtube.com/embed/5-6GbbPdSCM?autoplay=1" frameborder="0"
+            <iframe class="vedio" src="https://www.youtube.com/embed/_y6Hki57pwg?autoplay=1" frameborder="0"
                 allowfullscreen></iframe>
 
 
