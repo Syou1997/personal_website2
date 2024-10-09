@@ -79,7 +79,8 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    // border: 2px solid blue;
+    margin-top: 3rem;
+    // border-top: 5px solid #e7d0b9;
     width: 100vw;
     height: 10vh;
     padding: 1rem 0;

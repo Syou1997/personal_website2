@@ -50,6 +50,7 @@ export default {
                 </div>
 
                 <h1>張瑞升</h1>
+                <br>
                 <h2>{{ nowLanguage.homePageH2 }}</h2>
                 <div class="link_area">
                     <!-- facebook -->
