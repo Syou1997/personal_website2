@@ -14,6 +14,7 @@ export default defineStore("indexStatus", {
             project: "作品集",
             magic: "魔術",
             JT: "日語課程",
+            YT: "Youtube",
             //HomePage分頁
             homePageH2: "台灣南投人。畢業於明道大學 應用日語系學系。專長有日語教學、近景魔術表演、網頁開發。興趣是魔術、旅遊、料理和聽音樂。",
             homePageH3: "「除了變化，沒有什麼是永恆的」",
@@ -166,6 +167,14 @@ export default defineStore("indexStatus", {
             magicH4_1: "演出相片",
             //影片區
             magicH4_2: "表演影片",
+            //Youtube
+            youtubeH1: "推薦影片",
+            youtubeH2_1: "日本歌手專訪影片",
+            youtubeH3_1: "介紹日本歌手「璃杏(RIAN)」及本人專訪的影片。全日文發音(中文字幕)。",
+            youtubeH2_2: "鹿兒島旅遊VLOG",
+            youtubeH3_2: "日語發音，中日雙字幕。為了去見日本網友而飛去鹿兒島旅遊。\n\n遊玩景點:指宿的伊布家族人孔蓋、砂浴會館 砂樂、櫻島、仙巖園、仙巖園星巴克、鹿兒島水族館",
+            youtubeH2_3: "2024年日本插畫家Caho的台灣個展「Caho's palette Taiwan」",
+            youtubeH3_3: "在日本擁有超高人氣的軟萌少女系插畫家Caho，首次來台展出！Caho擅長以空氣感的閃亮畫風表達戀愛中的女孩感情，柔和的色彩與充滿粉紅泡泡的插畫，可愛到讓人無法抗拒。 1/11起Caho首次台灣快閃正式入駐華山文創園區，展開為期一個月的「Caho's palette Taiwan」特展。\n\n這次快閃品牌 0% TAIPEI  將「Caho's palette」日本展覽原汁原味搬到台灣，邀請台灣消費者走進Caho用獨特調色盤創造出的可愛夢幻世界，絕對激發大家的少女心。\n\n快展店中除了展出並販售部分Caho原創畫作、生活雜貨、服飾等周邊，也引進Caho親自打造的品牌「Caho's palette」人氣腮紅，塗上立刻擁有畫中少女的同款戀愛氣色，包裝設計一樣圍繞著Caho畫作展開，希望與粉絲分享插畫家心中激盪的感動和想像。",
             //footer
             phone: "0968961867",
             email: "azwsxrfv2396187@gmail.com",
@@ -178,6 +187,7 @@ export default defineStore("indexStatus", {
             project: "作品集",
             magic: "手品",
             JT: "日本語講座",
+            YT: "Youtube",
             //HomePage分頁
             homePageH2: "台湾南投出身。台湾明道大学 応用日本語学科を卒業しました。スキルは日本語、近距離手品、Webサイト制作。趣味は手品、旅行、料理と音楽を聴くことです。",
             homePageH3: "「変化以外に永久のものはない」",
@@ -328,6 +338,14 @@ export default defineStore("indexStatus", {
             magicH4_1: "実演写真",
             //影片區
             magicH4_2: "実演動画",
+            //Youtube
+            youtubeH1: "推薦影片",
+            youtubeH2_1: "日本人の歌手のインタビュー動画",
+            youtubeH3_1: "日本人の歌手「璃杏(RIAN)」の紹介とインタビューの動画です。音声は日本語で字幕は中国語です。",
+            youtubeH2_2: "鹿児島旅行のVLOG",
+            youtubeH3_2: "音声は日本語で字幕は日本語と中国語のダブル字幕です。ネットの日本人の友達に会いに行きました。\n\n今回行ったスポット:指宿のイーブイマンホール、砂むし会館 砂楽、桜島、仙巌園、スターバックス 鹿児島仙巌園店、いおワールドかごしま水族館",
+            youtubeH2_3: "2024年Caho先生の台湾個展",
+            youtubeH3_3: "日本人のイラストレーターCaho先生の個展に行ったVLOG。\n\n音声は中国語で日本語の字幕はCC字幕を使用されています。",
             //footer
             phone: "080-7390-3706",
             email: "azwsxrfv2396187@gmail.com",

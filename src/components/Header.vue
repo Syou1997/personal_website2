@@ -67,6 +67,9 @@ export default {
                <!-- <li>
                     <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
                </li> -->
+               <li>
+                    <RouterLink class="link" to="/YT">{{ nowLanguage.YT }}</RouterLink>
+               </li>
           </ul>
 
 
@@ -97,6 +100,11 @@ export default {
                     <!-- <li>
                          <RouterLink class="link" to="/JT">{{ nowLanguage.JT }}</RouterLink>
                     </li> -->
+                    <li>
+                         <RouterLink class="link" to="/YT">{{ nowLanguage.YT }}</RouterLink>
+                    </li>
+
+
                </ul>
           </nav>
 
@@ -248,21 +256,24 @@ export default {
                     margin: 1rem;
                     font-size: 1.5rem;
 
+
+
                     .link {
                          text-decoration: none;
                          color: black;
-                         transition: all 0.2s ease;
+                         transition: all 0.1s ease;
+                         font-weight: bold;
 
                          &:hover {
-                              transform: scale(1.1);
                               color: #0050FF;
-                              font-weight: bold;
-
+                              // transform: scale(1.1);
+                              
                          }
 
                          &:active {
-                              transform: scale(1);
+                              // transform: scale(0.95);
                          }
+
                     }
 
                }

@@ -153,6 +153,8 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+    animation-name: loading;
+    animation-duration: 1s;
     background-color: #E6DACE;
 
     //主影片區

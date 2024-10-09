@@ -75,7 +75,6 @@ export default {
 <style lang="scss" scoped>
 a {
     font-weight: bold;
-
     .back_to_top {
         position: fixed;
         right: 0;
@@ -94,7 +93,6 @@ a {
         transition: all 0.2s ease;
         color: white;
         clip-path: polygon(30% 120%, 70% 100%, 70% 60%, 100% 60%, 50% 0, 0 60%, 30% 60%);
-
 
 
         &:hover {
