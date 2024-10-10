@@ -189,39 +189,39 @@ export default defineStore("indexStatus", {
             JT: "日本語講座",
             YT: "Youtube",
             //HomePage分頁
-            homePageH2: "台湾南投出身。台湾明道大学 応用日本語学科を卒業しました。スキルは日本語、近距離手品、Webサイト制作。趣味は手品、旅行、料理と音楽を聴くことです。",
+            homePageH2: "台湾南投出身。明道大学 応用日本語学科を卒業しました。スキルは日本語、近距離手品、Webサイト制作。趣味は手品、旅行、料理と音楽を聴くことです。",
             homePageH3: "「変化以外に永久のものはない」",
-            homePageP1: "これは古代ギリシアの哲学者ヘラクレイトスが言った言葉です。私たちが送っている毎日はくるくる変わっていくものです。良いことであろうと悪いことであろうと、変化にに立ち向かい、面白くて素敵な毎日を送ることが私の目標です。",
+            homePageP1: "これは古代ギリシアの哲学者ヘラクレイトスが言った言葉です。私たちが送っている毎日はくるくる変わっていくものです。良いことであろうと悪いことであろうと、変化に立ち向かい、面白くて素敵な毎日を送ることが私の目標です。",
             homePageH4: "私について",
-            homePageP2: "台湾明道大学 応用日本語学科を卒業し、二年生はマジック部長、三年生は日本に留学し、四年生は韓国に留学しました。2020年~2023台湾アリオンでドライバーテストエンジニアを担当していました。2023年からWebの開発を勉強し始めました。2024年日本にワーキングホリデーに行きました。\n\nスキル\n日本語:\n50音授業、フリートーク、日常会話、日本語能力試験 N5~N2授業、アテンド通訳。日本人だと勘違いされるぐらい良い発音を持ち，分かりやすい例文や絵を使い、「分かりやすく説明できる」は特徴です。\n\n手品:\n近距離手品、パーティー手品、近距離手品の指導。トランプマジックが一番得意です。また、カーディストリーもできます。\n\nWebサイト制作:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\nYoutube:\n2024からユーチューブを撮り始めて、旅行のVLOGを中心に投稿しています。\n\nブログ:\n2024からブログを書き始めて、旅行、日本語勉強と台日生活など、色々な記事を書いています。",
+            homePageP2: "台湾で明道大学 応用日本語学科を卒業し、、二年生の時はマジック部長、三年の時には日本に留学し、四年生では韓国に留学。卒業後、2020～2023年、台湾アリオンでドライバーテストエンジニアを担当。2023年からWebの開発を勉強し始め、2024年～現在、日本でワーキングホリデー。\n\nスキル\n日本語:\n50音授業、フリートーク、日常会話、日本語能力試験 N5~N2授業、アテンド通訳。日本人だと勘違いされるぐらい発音がよく、例文や絵を使い「分かりやすく説明できる」のがアピールポイント。\n\n手品:\n近距離手品、パーティー手品、近距離手品の指導。トランプマジックが得意。カーディストリーもできる。\n\nWebサイト制作:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\nYoutube:\n2024年からユーチューブを撮り始め、旅行のVLOGを中心に投稿している。\n\nブログ:\n2024年からブログを書き始め、旅行、日本語勉強と台日生活など、色々な記事を書いている。",
             //Resume分頁
             //學歷
             education: "学歴",
             resumeYear: "2016年 - 2019年",
             resumeTitle: "台湾明道大学\n応用日本語学科 学士",
-            resumeText: "在学中に日本と韓国に留学、そしてJLPT N1を取得しました。",
+            resumeText: "在学中に日本と韓国に留学。JLPT N1を取得。  ",
             experience: "経歴",
             resumeYear1: "2017年 - 2018年",
             resumeTitle1: "日本釧路公立大学へ留学",
-            resumeText1: "日本で生活した時、文化や人との付き合い方を知り、日本語を日常生活に取り入れるようになりました。その結果、日本のことを深く知ることができ、日本語をさらに上達させることができました。",
+            resumeText1: "日本で生活した時、文化や人との付き合い方を知り、日本語を日常生活に取り入れるようになった。その結果、日本を深く知り、日本語を更に上達させることができた。",
             resumeYear2: "2017年 - 2018年",
             resumeTitle2: "Facebook投稿の翻訳(日本語→中国語)",
-            resumeText2: "約一年間くしろ地域観光情報Facebook中文(繁体字)の翻訳の仕事に従事していました。",
+            resumeText2: "約一年間くしろ地域観光情報Facebook中文(繁体字)の翻訳の仕事に従事した。",
             resumeYear3: "2018年 2月",
             resumeTitle3: "観光案内スタッフ",
-            resumeText3: "「SL冬の湿原号」運行期間のアルバイトです(約一ヶ月間)。JR標茶駅周辺における、外国人旅行者への観光案内業務に従事していました。",
+            resumeText3: "「SL冬の湿原号」運行期間のアルバイト(約一ヶ月間)。JR標茶駅周辺における外国人旅行者への観光案内業務に従事した。",
             resumeYear4: "2019年 3月 - 8月",
             resumeTitle4: "韓国済州観光大学へ留学",
-            resumeText4: "語学堂で韓国語を勉強しながら、大学の日本語の授業も受けていました。この半年間、韓国の文化を体験したり、現地の料理を食べたり、沢山の国の方と交流していました。",
+            resumeText4: "語学堂で韓国語を勉強しながら、大学の日本語の授業も受ける。半年間で韓国の文化を体験したり、現地の料理を食べたり、沢山の国の方と交流した。",
             resumeYear5: "2020年 - 2023年",
             resumeTitle5: "台湾アリオン ドライバーテスターエンジニア",
-            resumeText5: "主にコンピューターのドライバーの評価と検証、評価環境の用意、パソコンの組み立て、PLとしての評価管理でした。",
+            resumeText5: "主にコンピューターのドライバーの評価と検証、評価環境の用意、パソコンの組み立て、PLとしての評価管理。",
             resumeYear6: "2023年 7月 - 2024年 1月",
             resumeTitle6: "「台南應用科技大學國際產訓中心」という台湾の大学で\n「JAVA全端整合Web實務運用」というWebサイトの制作の授業\n研修終了",
-            resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度にWeb制作の能力を獲得しました。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照ください。",
+            resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度Web制作の能力を取得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照。",
             resumeYear7: "2024年 7月 - 現在",
             resumeTitle7: "BOULANGERIE ASANOYA\n日本でのワーキングホリデー",
-            resumeText7: "ワーキングホリデーのビザを通じて「BOULANGERIE ASANOYA」で販売員としてアルバイトしています。日本人だけでなく、台湾、中国、香港、シンガポールといった中国語を使用しているお客様の接客をしています。",
+            resumeText7: "ワーキングホリデービザで、「BOULANGERIE ASANOYA」で販売員としてアルバイト中。日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
@@ -239,84 +239,84 @@ export default defineStore("indexStatus", {
                 [
                     {
                         projectName: "数字当てゲーム",
-                        projectInfo: "範囲は1から100まで。また、答えは毎回ランダムに生成されます。",
+                        projectInfo: "範囲は1から100まで。答えは毎回ランダムに生成される。",
                         projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
 
                     },
                     {
                         projectName: "為替レートサイト",
-                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されています。",
+                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されている。",
                         projectLink: "https://exchange-rate3.netlify.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
 
                     },
                     {
                         projectName: "家計簿サイト",
-                        projectInfo: "収支の現状を把握するサイトです。\n注意点:\n1.アカウントを作らないとご利用できないです。\n2.収入は金額がプラスに対して支出は金額がマイナスです。",
+                        projectInfo: "収支の現状を把握するサイト。\n注意点:\n1.アカウントの作成が必要。\n2.収入は金額がプラスに対して支出は金額がマイナス。",
                         projectLink: "https://income-and-expense2.netlify.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
 
                     },
                     {
                         projectName: "碁の紹介サイト",
-                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介です。",
+                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介。",
                         projectLink: "https://syou1997.github.io/Go_info/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
 
                     },
                     {
                         projectName: "日本の旅行サイトのホームページ",
-                        projectInfo: "日本旅行のおすすめです。",
+                        projectInfo: "日本旅行のおすすめ。",
                         projectLink: "https://syou1997.github.io/Japan-travel-website/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
 
                     },
                     {
                         projectName: "メンバーの抽選ツール",
-                        projectInfo: "ランダムに一名のメンバーが抽選されます。チェックボックスによる条件付きの抽選も可能です。",
+                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能。",
                         projectLink: "https://syou1997.github.io/ottery-system/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
 
                     },
                     {
                         projectName: "成績統計サイト",
-                        projectInfo: "アメリカの大学での成績を計算するアプリです。",
+                        projectInfo: "アメリカの大学での成績を計算するアプリ。",
                         projectLink: "https://syou1997.github.io/Grade-calculation/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Grade_calculation.png?raw=true",
 
                     },
                     {
                         projectName: "スネーク",
-                        projectInfo: "蛇を操作して餌を食べ続けるゲームです。壁にぶつかっても死なないけど、自身にぶつかったらゲームオーバーです。",
+                        projectInfo: "蛇を操作して餌を食べ続けるゲーム。壁にぶつかっても死なないが、自身にぶつかったらゲームオーバー。",
                         projectLink: "https://syou1997.github.io/Snake/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
 
                     },
                     {
                         projectName: "ブレイクアウトクローン",
-                        projectInfo: "このゲームでは、ポテンショメータを利用してブレイクアウトクローンゲームをプレイします。",
+                        projectInfo: "このゲームでは、ポテンショメータを利用し、ブレイクアウトクローンゲームをプレイする。",
                         projectLink: "https://syou1997.github.io/Breakout-clone/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Breakout_clone.png?raw=true",
 
                     },
                     {
                         projectName: "ストップウォッチ",
-                        projectInfo: "ストップウォッチアプリです。",
+                        projectInfo: "ストップウォッチアプリ。",
                         projectLink: "https://syou1997.github.io/Stopwatch/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
 
                     },
                     {
                         projectName: "会社内部管理システム",
-                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついています。",
+                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
                         projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
                         projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
 
                     },
                     {
                         projectName: "やることリスト",
-                        projectInfo: "やることを管理するWebアプリケーションです。",
+                        projectInfo: "やることを管理するWebアプリケーション。",
                         projectLink: "https://syou1997.github.io/todoList/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
 
@@ -332,9 +332,9 @@ export default defineStore("indexStatus", {
             //Magic
             magicH1: "私たちが経験できる最も美しいものは神秘である - アルベルト・アインシュタイン (1879-1955)",
             magicH2_1: "手品",
-            magicH3_1: "15歳から独学で手品を学び始め、今まで10年以上経ちました。観客とコミュニケーションを取る近距離マジック(close-up magic)が一番得意で特にトランプマジックです。大学二年生の時、部長を担当し、その期間に校内みならず、外でも多くのところで実演しました。例えば：学園祭、クリスマスパーティー、小学校、忘年会。社会に出てもスキルを磨き続いております。一生やり続ける趣味です。",
+            magicH3_1: "15歳から独学で手品を学び始め、今まで10年以上経ちました。観客とコミュニケーションを取る近距離マジック(close-up magic)が得意で、特にトランプマジックです。大学二年生の時、マジック部長として学内のみならず、学外でも多くのところで実演しました。例えば：学園祭、クリスマスパーティー、小学校、忘年会。社会に出てもスキルを磨き続けております。一生やり続ける趣味です。",
             magicH2_2: "カーディストリー",
-            magicH3_2: "2021年にネットで見たTobias Levinの動画がきっかけに、北欧スタイルのカーディストリーにハマりました。特にCombo。その後Tobiasの技をはじめとして学び始めた。これは手品と違って、トランプを操る技術を重視されていて、すごくかっこいいジャグリングだと思います。好きな技は:Flip Phone、Barolo2、Legolove、Bloom、Mantra、Skirt、Fairfax。",
+            magicH3_2: "2021年にネットで見たTobias Levinの動画をきっかけに、北欧スタイルのカーディストリーにハマりました。特にCombo。その後Tobiasの技をはじめとして学び始めました。これは手品と違って、トランプを操る技術が重視されており、すごくかっこいいジャグリングだと思っています。好きな技は:Flip Phone、Barolo2、Legolove、Bloom、Mantra、Skirt、Fairfax。",
             magicH4_1: "実演写真",
             //影片區
             magicH4_2: "実演動画",
