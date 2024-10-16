@@ -99,8 +99,8 @@ export default {
 
 
         h2 {
-            width: 60vw;
-            height: 15vh;
+            // width: 60vw;
+            // height: 15vh;
             font-size: 2rem;
             font-weight: bolder;
             padding-top: 1rem;
@@ -111,6 +111,7 @@ export default {
         .video {
             width: 100%;
             height: 30vw;
+            margin-top: 2rem;
 
         }
 
@@ -129,8 +130,9 @@ export default {
             margin-bottom: 0.5rem;
 
         }
-        h3{
-            white-space:pre-wrap;
+
+        h3 {
+            white-space: pre-wrap;
         }
     }
 
@@ -153,4 +155,17 @@ export default {
 
 
 }
+
+
+//RWD
+// @media screen and (max-width: 500px) {
+//     .container {
+//         .video_area {
+//             h2 {
+//                 font-size: 2rem;
+//             }
+//         }
+
+//     }
+// }
 </style>
