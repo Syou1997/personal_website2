@@ -47,8 +47,8 @@ export default defineStore("indexStatus", {
             resumeTitle6: "台南應用科技大學國際產訓中心\n「JAVA全端整合Web實務運用」\n課程結訓",
             resumeText6: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n\n相關作品請參考「作品集」分頁。",
             resumeYear7: "2024年 7月 - 現在",
-            resumeTitle7: "BOULANGERIE ASANOYA\n日本打工度假",
-            resumeText7: "透過日本打工度假簽證在「ASANOYA淺野屋店」販賣部的店員。除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
+            resumeTitle7: "淺野屋輕井澤舊道本店\n日本打工度假",
+            resumeText7: "透過日本打工度假簽證在「淺野屋輕井澤舊道本店」的麵包店裡面販賣部的店員。除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
 
             //證照
             certificate: "證照",
@@ -220,8 +220,8 @@ export default defineStore("indexStatus", {
             resumeTitle6: "「台南應用科技大學國際產訓中心」という台湾の大学で\n「JAVA全端整合Web實務運用」というWebサイトの制作の授業\n研修終了",
             resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度Web制作の能力を取得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照。",
             resumeYear7: "2024年 7月 - 現在",
-            resumeTitle7: "BOULANGERIE ASANOYA\n日本でのワーキングホリデー",
-            resumeText7: "ワーキングホリデービザで、「BOULANGERIE ASANOYA」で販売員としてアルバイト中。日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
+            resumeTitle7: "BOULANGERIE ASANOYA 旧道本店\n日本でのワーキングホリデー",
+            resumeText7: "ワーキングホリデービザで、「BOULANGERIE ASANOYA 旧道本店」というパン屋さんで販売員としてアルバイト中。日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
