@@ -20,7 +20,7 @@ export default defineStore("indexStatus", {
             homePageH3: "「除了變化，沒有什麼是永恆的」",
             homePageP1: "此話出自古希臘哲學家赫拉克利特。我們生活中的每一刻都在變化，不管是好的還是壞的都要勇敢面對，活出好玩且精采的每一天是我的目標。",
             homePageH4: "關於我",
-            homePageP2: "畢業於明道大學 應用日語系學系。大二擔任魔術社社長、大三到日本留學、大四到韓國留學。2020年~2023年在百家泰擔任電腦Driver測試工程師。2023年開始學習網頁開發。\n\n專長\n日語:\n50音教學、口說指導、日常會話、JLPT N5~N2指導、隨行口譯。擁有被誤認為是日本人的良好日語發音，擅長用簡單易懂的例子及圖像來讓學生理解。\n\n魔術:\n近景魔術、派對魔術、近景魔術教學。最擅長的是撲克牌魔術，此外，花式撲克牌也略有涉獵。\n\n網頁開發:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\nYoutube:\n2024年開始經營各個人Youtube頻道，主要分享旅遊的VLOG影片。\n\n部落格:\n2024年開始經營各個人部落格，分享內容有:旅遊介紹、日語教學、台日生活...等等。",
+            homePageP2: "畢業於明道大學 應用日語系學系。大二擔任魔術社社長、大三到日本留學、大四到韓國留學。2020年~2023年在百家泰擔任電腦Driver測試工程師。2023年開始學習網頁開發。2024年到現在正在日本打工度假。\n\n專長\n日語:\n50音教學、口說指導、日常會話、JLPT N5~N2指導、隨行口譯。擁有被誤認為是日本人的良好日語發音，擅長用簡單易懂的例子及圖像來讓學生理解。\n\n魔術:\n近景魔術、派對魔術、近景魔術教學。最擅長的是撲克牌魔術，此外，花式撲克牌也略有涉獵。\n\n網頁開發:\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\nYoutube:\n2024年開始經營各個人Youtube頻道，主要分享旅遊的VLOG影片。\n\n部落格:\n2024年開始經營各個人部落格，分享內容有:旅遊介紹、日語教學、台日生活...等等。",
             //Resume分頁
             //學歷
             education: "學歷",
@@ -46,7 +46,7 @@ export default defineStore("indexStatus", {
             resumeYear6: "2023年 7月 - 2024年 1月",
             resumeTitle6: "台南應用科技大學國際產訓中心\n「JAVA全端整合Web實務運用」\n課程結訓",
             resumeText6: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n\n相關作品請參考「作品集」分頁。",
-            resumeYear7: "2024年 7月 - 現在",
+            resumeYear7: "2024年 7月 - 11月",
             resumeTitle7: "淺野屋輕井澤舊道本店\n日本打工度假",
             resumeText7: "透過日本打工度假簽證在「淺野屋輕井澤舊道本店」的麵包店裡面販賣部的店員。除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
 
@@ -219,7 +219,7 @@ export default defineStore("indexStatus", {
             resumeYear6: "2023年 7月 - 2024年 1月",
             resumeTitle6: "「台南應用科技大學國際產訓中心」という台湾の大学で\n「JAVA全端整合Web實務運用」というWebサイトの制作の授業\n研修終了",
             resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度Web制作の能力を取得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照。",
-            resumeYear7: "2024年 7月 - 現在",
+            resumeYear7: "2024年 7月 - 11月",
             resumeTitle7: "BOULANGERIE ASANOYA 旧道本店\n日本でのワーキングホリデー",
             resumeText7: "ワーキングホリデービザで、「BOULANGERIE ASANOYA 旧道本店」というパン屋さんで販売員としてアルバイト中。日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
             //證照
