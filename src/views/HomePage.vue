@@ -53,7 +53,8 @@ export default {
         <main>
             <div class="left_area">
                 <div class="img_frame">
-                    <img title="查看大頭照" v-on:click="isShowOn" src="https://raw.githubusercontent.com/Syou1997/personal_website2/f590b4f95c103f860bbbe59f1c97d84285173b4e/image/syou2.jpg"
+                    <img title="查看大頭照" v-on:click="isShowOn"
+                        src="https://raw.githubusercontent.com/Syou1997/personal_website2/f590b4f95c103f860bbbe59f1c97d84285173b4e/image/syou2.jpg"
                         alt="個人照片">
                 </div>
                 <div v-if="picShow" class="imgZoom">
@@ -70,8 +71,13 @@ export default {
                         <Icon class="icon" icon="logos:facebook" />
                     </a>
                     <!-- X(twitter) -->
-                    <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
+                    <!-- <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
                         <Icon class="icon" icon="devicon:twitter" />
+                    </a> -->
+                    <!-- AmazingTalker -->
+                    <a target="_blank"
+                        href="https://tw.amazingtalker.com/teachers-and-tutors/700c83f9-35ad-425f-83d8-e2f5f7b29466">
+                        <Icon class="icon iconAT" icon="uil:letter-english-a" />
                     </a>
                     <!-- instagram -->
                     <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/">
@@ -159,9 +165,10 @@ export default {
                 z-index: 2;
                 background-color: white;
                 border: 1px solid gray;
+
                 &:hover {
                     box-shadow: rgb(153, 151, 151) 6px 5px 10px;
-                    }
+                }
 
                 img {
                     width: 100%;
@@ -235,6 +242,9 @@ export default {
                     }
 
 
+                }
+                .iconAT{
+                    color: red;
                 }
 
 
@@ -361,23 +371,23 @@ export default {
                 }
 
                 .imgZoom {
-                // border: 2px solid blue;
-                position: absolute;
-                top: 100%;
-                left: 100%;
-                min-width: 180px;
-                min-height: 180px;
-                transform: translate(-130%, -45%);
-                z-index: 100;
+                    // border: 2px solid blue;
+                    position: absolute;
+                    top: 100%;
+                    left: 100%;
+                    min-width: 180px;
+                    min-height: 180px;
+                    transform: translate(-130%, -45%);
+                    z-index: 100;
 
-                .pic {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: contain;
-                    cursor: pointer;
+                    .pic {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        cursor: pointer;
+                    }
+
                 }
-
-            }
 
             }
 

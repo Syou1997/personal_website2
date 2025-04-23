@@ -55,8 +55,12 @@ export default {
                     <i class="fa-brands fa-facebook icon"></i>
                 </a>
                 <!-- X(twitter) -->
-                <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
+                <!-- <a target="_blank" href="https://twitter.com/azwsxrfv2396187">
                     <i class="fa-brands fa-x-twitter icon"></i>
+                </a> -->
+                <!-- AmazingTalker -->
+                <a target="_blank" href="https://tw.amazingtalker.com/teachers-and-tutors/700c83f9-35ad-425f-83d8-e2f5f7b29466">
+                    <i class="fa-solid fa-a icon"></i>
                 </a>
                 <!-- instagram -->
                 <a target="_blank" href="https://www.instagram.com/azwsxrfv2396187/">
