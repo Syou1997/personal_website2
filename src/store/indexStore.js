@@ -56,7 +56,7 @@ export default defineStore("indexStatus", {
             resumeTitle9: "Let's! China 中文教室\n日本打工度假",
             resumeText9: "透過「レッツ!チャイナ中国語教室」這個網站，擔任中文老師，在咖啡廳進行一對一的教學打工。",
             resumeYear10: "2025年 1月 - 現在",
-            resumeTitle10: "AmazingTalker 日語老師\n正職",
+            resumeTitle10: "AmazingTalker 日語老師",
             resumeText10: "目前在AmazingTalker上擔任日文老師。",
 
             //證照
@@ -211,7 +211,7 @@ export default defineStore("indexStatus", {
             resumeText: "在学中に日本と韓国に留学。JLPT N1を取得。  ",
             experience: "経歴",
             resumeYear1: "2017年 - 2018年",
-            resumeTitle1: "日本釧路公立大学へ留学",
+            resumeTitle1: "日本釧路公立大学へ交換留学",
             resumeText1: "日本で生活した時、文化や人との付き合い方を知り、日本語を日常生活に取り入れるようになった。その結果、日本を深く知り、日本語を更に上達させることができた。",
             resumeYear2: "2017年 - 2018年",
             resumeTitle2: "Facebook投稿の翻訳(日本語→中国語)\nアルバイト",
@@ -220,7 +220,7 @@ export default defineStore("indexStatus", {
             resumeTitle3: "観光案内スタッフ\nアルバイト",
             resumeText3: "「SL冬の湿原号」運行期間のアルバイト(約一ヶ月間)。JR標茶駅周辺における外国人旅行者への観光案内業務に従事した。",
             resumeYear4: "2019年 3月 - 8月",
-            resumeTitle4: "韓国済州観光大学へ留学",
+            resumeTitle4: "韓国済州観光大学へ交換留学",
             resumeText4: "語学堂で韓国語を勉強しながら、大学の日本語の授業も受ける。半年間で韓国の文化を体験したり、現地の料理を食べたり、沢山の国の方と交流した。",
             resumeYear5: "2020年 - 2023年",
             resumeTitle5: "台湾アリオン ドライバーテスターエンジニア\n正社員",
@@ -238,7 +238,7 @@ export default defineStore("indexStatus", {
             resumeTitle9: "レッツ!チャイナ中国語教室\n日本でのワーキングホリデー",
             resumeText9: "「レッツ!チャイナ中国語教室」というサイトを通じて、中国語の先生として、カフェで一対一レッスンのアルバイト。",
             resumeYear10: "2025年 1月 - 現在",
-            resumeTitle10: "AmazingTalker 日本語の先生\n正社員",
+            resumeTitle10: "AmazingTalker 日本語の先生",
             resumeText10: "AmazingTalkerというサイトで、日本語の先生を担当中。",
             //證照
             certificate: "資格",
