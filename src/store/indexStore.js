@@ -54,7 +54,7 @@ export default defineStore("indexStatus", {
             resumeText8: "以打工度假簽證，在京都高島屋裡面的「Gramercy New York」的蛋糕店擔任銷售員。工作內容包括包裝蛋糕、補貨以及書寫蛋糕牌...等等。此外，也負責接待日本人以及來自台灣、中國、香港、新加坡等會說中文的顧客。",
             resumeYear9: "2025年 2月 - 4月",
             resumeTitle9: "Let's! China 中文教室\n日本打工度假",
-            resumeText9: "透過「レッツ!チャイナ中国語教室」這個網站，擔任中文老師，在咖啡廳進行一對一的教學打工。",
+            resumeText9: "透過「レッツ!チャイナ中国語教室」這個網站，擔任日本人的中文老師，在咖啡廳進行一對一的教學打工。",
             resumeYear10: "2025年 1月 - 現在",
             resumeTitle10: "AmazingTalker 日語老師",
             resumeText10: "目前在AmazingTalker上擔任日文老師。",
