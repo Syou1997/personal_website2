@@ -165,6 +165,13 @@ export default defineStore("indexStatus", {
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/asanoya.png?raw=true",
 
                     },
+                    {
+                        projectName: "50音篩選器",
+                        projectInfo: "隨機產生50音的工具。",
+                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
+
+                    },
                 ],
 
             //Magic
@@ -344,6 +351,13 @@ export default defineStore("indexStatus", {
                         projectInfo: "ブランジェ浅野屋軽井沢旧道本店の新人研修用のサイト。\nパスポートはサイトの管理者にお尋ねください。",
                         projectLink: "https://asanoya.vercel.app/",
                         projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/asanoya.png?raw=true",
+
+                    },
+                    {
+                        projectName: "五十音生成ツール",
+                        projectInfo: "五十音をランダムに生成できるツール。",
+                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
 
                     },
                 ],
