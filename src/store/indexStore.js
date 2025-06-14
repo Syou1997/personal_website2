@@ -56,8 +56,11 @@ export default defineStore("indexStatus", {
             resumeTitle9: "Let's! China 中文教室\n日本打工度假",
             resumeText9: "透過「レッツ!チャイナ中国語教室」這個網站，擔任日本人的中文老師，在咖啡廳進行一對一的教學打工。",
             resumeYear10: "2025年 1月 - 現在",
-            resumeTitle10: "AmazingTalker 日語老師",
+            resumeTitle10: "AmazingTalker 日語老師\n兼職",
             resumeText10: "目前在AmazingTalker上擔任日文老師。",
+            resumeYear11: "2025年 6月 - 現在",
+            resumeTitle11: "聯成外語 日語老師\n兼職",
+            resumeText11: "目前在聯成外語上擔任線上日文老師。",
 
             //證照
             certificate: "證照",
@@ -247,6 +250,9 @@ export default defineStore("indexStatus", {
             resumeYear10: "2025年 1月 - 現在",
             resumeTitle10: "AmazingTalker 日本語の先生",
             resumeText10: "AmazingTalkerというサイトで、日本語の先生を担当中。",
+            resumeYear11: "2025年 6月 - 現在",
+            resumeTitle11: "聯成外語 日本語の先生\nアルバイト。",
+            resumeText11: "台湾の聯成外語という語学学校で、オンラインの日本語の先生を担当中。",
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",

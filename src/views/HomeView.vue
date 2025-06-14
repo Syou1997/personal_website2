@@ -11,12 +11,20 @@ export default {
         return {
 
         }
+    }, methods: {
+
+    },
+    //生命週期
+    mounted() {
+     
+
     },
 
 }
 </script>
 
 <template>
+
     <div class="container">
         <HeaderView />
         <RouterView />

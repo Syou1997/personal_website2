@@ -52,6 +52,13 @@ export default {
           <!-- 經歷 -->
           <h2>{{ nowLanguage.experience }} </h2>
           <div class="bcg_box">
+                       <div class="frame">
+                    <div class="info">
+                         <h6 class="year">{{ nowLanguage.resumeYear11 }}</h6>
+                         <h3 class="title">{{ nowLanguage.resumeTitle11 }}</h3>
+                    </div>
+                    <p class="text">{{ nowLanguage.resumeText11 }}</p>
+               </div>
                <div class="frame">
                     <div class="info">
                          <h6 class="year">{{ nowLanguage.resumeYear10 }}</h6>
