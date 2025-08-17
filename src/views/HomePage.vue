@@ -1,7 +1,7 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 //Pinia 方法
-import { mapState, mapActions } from 'pinia';
+import {mapState,mapActions} from 'pinia';
 //自己的資料庫
 import indexStore from '../store/indexStore';
 //figma icon

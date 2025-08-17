@@ -14,7 +14,7 @@ export default defineStore("indexStatus", {
             project: "作品集",
             magic: "魔術",
             JT: "日語課程",
-            YT: "Youtube",
+            YT: "影片",
             //HomePage分頁
             homePageH2: "台灣南投人。畢業於明道大學 應用日語系學系。專長有日語教學、近景魔術表演、網頁開發。興趣是魔術、旅遊、料理和聽音樂。",
             homePageH3: "「除了變化，沒有什麼是永恆的」",
@@ -206,7 +206,7 @@ export default defineStore("indexStatus", {
             project: "作品集",
             magic: "手品",
             JT: "日本語講座",
-            YT: "Youtube",
+            YT: "動画",
             //HomePage分頁
             homePageH2: "台湾南投出身。明道大学 応用日本語学科を卒業しました。スキルは日本語、近距離手品、Webサイト制作。趣味は手品、旅行、料理と音楽を聴くことです。",
             homePageH3: "「変化以外に永久のものはない」",
@@ -363,6 +363,12 @@ export default defineStore("indexStatus", {
                         projectName: "五十音生成ツール",
                         projectInfo: "五十音をランダムに生成できるツール。",
                         projectLink: "https://syou1997.github.io/Japanese-syllabary/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
+
+                    },                    {
+                        projectName: "『みんなの日本語』でチャレンジ！",
+                        projectInfo: "ランキングで友達と競い合いながら、楽しく復習できる。学生は遊びながら力をつけ、教師は授業を盛り上げるアイテムとして活用できる。。",
+                        projectLink: "https://reading-aloud-game.vercel.app/",
                         projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
 
                     },
