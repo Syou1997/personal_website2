@@ -78,87 +78,17 @@ export default defineStore("indexStatus", {
             projectList:
                 [
                     {
-                        projectName: "猜數字",
-                        projectInfo: "猜數字遊戲。每次會從範圍1~100產生一個答案。",
-                        projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
+                        projectName: "用《大家的日本語》來挑戰！",
+                        projectInfo: "一邊在排行榜上和朋友競爭，一邊開心地複習。學生能在遊戲中提升實力，教師也能把它作為活躍課堂的輔助教材來使用。",
+                        projectLink: "https://reading-aloud-game.vercel.app/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Reading-Aloud-Game.png",
 
                     },
                     {
-                        projectName: "匯率轉換器",
-                        projectInfo: "轉換匯率用的網站，使用方法請看網站內部的說明。",
-                        projectLink: "https://exchange-rate3.netlify.app/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
-
-                    },
-                    {
-                        projectName: "記帳網站",
-                        projectInfo: "計算收支。\n注意事項:\n1.要申請帳號否則無法使用。\n2.收入是正數，支出請填入負數。",
-                        projectLink: "https://income-and-expense2.netlify.app/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
-
-                    },
-                    {
-                        projectName: "圍棋資訊網",
-                        projectInfo: "圍棋的基本介紹及韓國、日本、中國、台灣的圍棋文化介紹。",
-                        projectLink: "https://syou1997.github.io/Go_info/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
-
-                    },
-                    {
-                        projectName: "日本旅遊網站首頁",
-                        projectInfo: "日本旅遊景點的推薦網站。",
-                        projectLink: "https://syou1997.github.io/Japan-travel-website/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
-
-                    },
-                    {
-                        projectName: "人員抽籤系統",
-                        projectInfo: "可以隨機抽出一位人員，且能夠指定勾選條件做篩選。",
-                        projectLink: "https://syou1997.github.io/ottery-system/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
-
-                    },
-                    {
-                        projectName: "成績計算網站",
-                        projectInfo: "美國大學用來計算成績網站。",
-                        projectLink: "https://syou1997.github.io/Grade-calculation/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Grade_calculation.png?raw=true",
-
-                    },
-                    {
-                        projectName: "貪食蛇",
-                        projectInfo: "使用方向鍵操控一條長長的蛇不斷吞下果實，同時蛇身隨著吞下的果實不斷變長，當蛇頭撞到蛇身時遊戲結束。",
-                        projectLink: "https://syou1997.github.io/Snake/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
-
-                    },
-                    {
-                        projectName: "打磚塊",
-                        projectInfo: "操縱地板控制球的回彈方向，當磚塊被全部打完後遊戲結束。",
-                        projectLink: "https://syou1997.github.io/Breakout-clone/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Breakout_clone.png?raw=true",
-
-                    },
-                    {
-                        projectName: "碼表",
-                        projectInfo: "碼表功能的網站。",
-                        projectLink: "https://syou1997.github.io/Stopwatch/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
-
-                    },
-                    {
-                        projectName: "公司內部管理系統",
-                        projectInfo: "使用了前端、後端、資料庫。\n內容包含「登入系統」與「請假系統」。",
-                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
-                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
-
-                    },
-                    {
-                        projectName: "代辦事項",
-                        projectInfo: "記錄代辦事項的網站。",
-                        projectLink: "https://syou1997.github.io/todoList/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
+                        projectName: "50音篩選器",
+                        projectInfo: "隨機產生50音的工具。",
+                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
 
                     },
                     {
@@ -169,13 +99,91 @@ export default defineStore("indexStatus", {
 
                     },
                     {
-                        projectName: "50音篩選器",
-                        projectInfo: "隨機產生50音的工具。",
-                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
-                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
+                        projectName: "代辦事項",
+                        projectInfo: "記錄代辦事項的網站。",
+                        projectLink: "https://syou1997.github.io/todoList/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
+
+                    },
+                    {
+                        projectName: "公司內部管理系統",
+                        projectInfo: "使用了前端、後端、資料庫。\n內容包含「登入系統」與「請假系統」。",
+                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
+
+                    },
+                    {
+                        projectName: "碼表",
+                        projectInfo: "碼表功能的網站。",
+                        projectLink: "https://syou1997.github.io/Stopwatch/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
+
+                    },
+                    {
+                        projectName: "打磚塊",
+                        projectInfo: "操縱地板控制球的回彈方向，當磚塊被全部打完後遊戲結束。",
+                        projectLink: "https://syou1997.github.io/Breakout-clone/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Breakout_clone.png?raw=true",
+
+                    },
+                    {
+                        projectName: "貪食蛇",
+                        projectInfo: "使用方向鍵操控一條長長的蛇不斷吞下果實，同時蛇身隨著吞下的果實不斷變長，當蛇頭撞到蛇身時遊戲結束。",
+                        projectLink: "https://syou1997.github.io/Snake/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
+
+                    },
+                    {
+                        projectName: "成績計算網站",
+                        projectInfo: "美國大學用來計算成績網站。",
+                        projectLink: "https://syou1997.github.io/Grade-calculation/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Grade_calculation.png?raw=true",
+
+                    },
+                    {
+                        projectName: "人員抽籤系統",
+                        projectInfo: "可以隨機抽出一位人員，且能夠指定勾選條件做篩選。",
+                        projectLink: "https://syou1997.github.io/ottery-system/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
+
+                    },
+                    {
+                        projectName: "日本旅遊網站首頁",
+                        projectInfo: "日本旅遊景點的推薦網站。",
+                        projectLink: "https://syou1997.github.io/Japan-travel-website/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
+
+                    },
+                    {
+                        projectName: "圍棋資訊網",
+                        projectInfo: "圍棋的基本介紹及韓國、日本、中國、台灣的圍棋文化介紹。",
+                        projectLink: "https://syou1997.github.io/Go_info/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
+
+                    },
+                    {
+                        projectName: "記帳網站",
+                        projectInfo: "計算收支。\n注意事項:\n1.要申請帳號否則無法使用。\n2.收入是正數，支出請填入負數。",
+                        projectLink: "https://income-and-expense2.netlify.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
+
+                    },
+                    {
+                        projectName: "匯率轉換器",
+                        projectInfo: "轉換匯率用的網站，使用方法請看網站內部的說明。",
+                        projectLink: "https://exchange-rate3.netlify.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
+
+                    },
+                    {
+                        projectName: "猜數字",
+                        projectInfo: "猜數字遊戲。每次會從範圍1~100產生一個答案。",
+                        projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
 
                     },
                 ],
+
 
             //Magic
             magicH1: "世界上最美好的體驗就是未知的神秘 - 阿爾伯特·愛因斯坦 (1879-1955)",
@@ -269,87 +277,17 @@ export default defineStore("indexStatus", {
             projectList:
                 [
                     {
-                        projectName: "数字当てゲーム",
-                        projectInfo: "範囲は1から100まで。答えは毎回ランダムに生成される。",
-                        projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
+                        projectName: "『みんなの日本語』でチャレンジ！",
+                        projectInfo: "ランキングで友達と競い合いながら、楽しく復習できる。学生は遊びながら力をつけ、教師は授業を盛り上げるアイテムとして活用できる。",
+                        projectLink: "https://reading-aloud-game.vercel.app/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Reading-Aloud-Game.png",
 
                     },
                     {
-                        projectName: "為替レートサイト",
-                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されている。",
-                        projectLink: "https://exchange-rate3.netlify.app/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
-
-                    },
-                    {
-                        projectName: "家計簿サイト",
-                        projectInfo: "収支の現状を把握するサイト。\n注意点:\n1.アカウントの作成が必要。\n2.収入は金額がプラスに対して支出は金額がマイナス。",
-                        projectLink: "https://income-and-expense2.netlify.app/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
-
-                    },
-                    {
-                        projectName: "碁の紹介サイト",
-                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介。",
-                        projectLink: "https://syou1997.github.io/Go_info/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
-
-                    },
-                    {
-                        projectName: "日本の旅行サイトのホームページ",
-                        projectInfo: "日本旅行のおすすめ。",
-                        projectLink: "https://syou1997.github.io/Japan-travel-website/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
-
-                    },
-                    {
-                        projectName: "メンバーの抽選ツール",
-                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能。",
-                        projectLink: "https://syou1997.github.io/ottery-system/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
-
-                    },
-                    {
-                        projectName: "成績統計サイト",
-                        projectInfo: "アメリカの大学での成績を計算するアプリ。",
-                        projectLink: "https://syou1997.github.io/Grade-calculation/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Grade_calculation.png?raw=true",
-
-                    },
-                    {
-                        projectName: "スネーク",
-                        projectInfo: "蛇を操作して餌を食べ続けるゲーム。壁にぶつかっても死なないが、自身にぶつかったらゲームオーバー。",
-                        projectLink: "https://syou1997.github.io/Snake/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
-
-                    },
-                    {
-                        projectName: "ブレイクアウトクローン",
-                        projectInfo: "このゲームでは、ポテンショメータを利用し、ブレイクアウトクローンゲームをプレイする。",
-                        projectLink: "https://syou1997.github.io/Breakout-clone/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Breakout_clone.png?raw=true",
-
-                    },
-                    {
-                        projectName: "ストップウォッチ",
-                        projectInfo: "ストップウォッチアプリ。",
-                        projectLink: "https://syou1997.github.io/Stopwatch/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
-
-                    },
-                    {
-                        projectName: "会社内部管理システム",
-                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
-                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
-                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
-
-                    },
-                    {
-                        projectName: "やることリスト",
-                        projectInfo: "やることを管理するWebアプリケーション。",
-                        projectLink: "https://syou1997.github.io/todoList/",
-                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
+                        projectName: "五十音生成ツール",
+                        projectInfo: "五十音をランダムに生成できるツール。",
+                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
 
                     },
                     {
@@ -360,16 +298,87 @@ export default defineStore("indexStatus", {
 
                     },
                     {
-                        projectName: "五十音生成ツール",
-                        projectInfo: "五十音をランダムに生成できるツール。",
-                        projectLink: "https://syou1997.github.io/Japanese-syllabary/",
-                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
+                        projectName: "やることリスト",
+                        projectInfo: "やることを管理するWebアプリケーション。",
+                        projectLink: "https://syou1997.github.io/todoList/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/todoList.png?raw=true",
 
-                    },                    {
-                        projectName: "『みんなの日本語』でチャレンジ！",
-                        projectInfo: "ランキングで友達と競い合いながら、楽しく復習できる。学生は遊びながら力をつけ、教師は授業を盛り上げるアイテムとして活用できる。。",
-                        projectLink: "https://reading-aloud-game.vercel.app/",
-                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/50.png",
+                    },
+                    {
+                        projectName: "会社内部管理システム",
+                        projectInfo: "フロントエンドとバックエンド、データベースを使用し、「ログインシステム」と「休暇管理のシステム」の機能がついている。",
+                        projectLink: "https://docs.google.com/presentation/d/1yjp67DnTtWFXf2kRgZOoUQBphUH6I7WH/edit#slide=id.p1",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/main/image/officeSystem.png",
+
+                    },
+                    {
+                        projectName: "ストップウォッチ",
+                        projectInfo: "ストップウォッチアプリ。",
+                        projectLink: "https://syou1997.github.io/Stopwatch/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Stopwatch.png?raw=true",
+
+                    },
+                    {
+                        projectName: "ブレイクアウトクローン",
+                        projectInfo: "このゲームでは、ポテンショメータを利用し、ブレイクアウトクローンゲームをプレイする。",
+                        projectLink: "https://syou1997.github.io/Breakout-clone/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Breakout_clone.png?raw=true",
+
+                    },
+                    {
+                        projectName: "スネーク",
+                        projectInfo: "蛇を操作して餌を食べ続けるゲーム。壁にぶつかっても死なないが、自身にぶつかったらゲームオーバー。",
+                        projectLink: "https://syou1997.github.io/Snake/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Snake%20.png?raw=true",
+
+                    },
+                    {
+                        projectName: "成績統計サイト",
+                        projectInfo: "アメリカの大学での成績を計算するアプリ。",
+                        projectLink: "https://syou1997.github.io/Grade-calculation/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Grade_calculation.png?raw=true",
+
+                    },
+                    {
+                        projectName: "メンバーの抽選ツール",
+                        projectInfo: "ランダムに一名のメンバーが抽選される。チェックボックスによる条件付きの抽選も可能。",
+                        projectLink: "https://syou1997.github.io/ottery-system/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/ottery_system.png?raw=true",
+
+                    },
+                    {
+                        projectName: "日本の旅行サイトのホームページ",
+                        projectInfo: "日本旅行のおすすめ。",
+                        projectLink: "https://syou1997.github.io/Japan-travel-website/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Japan_travel_website.png?raw=true",
+
+                    },
+                    {
+                        projectName: "碁の紹介サイト",
+                        projectInfo: "碁の紹介と韓国、日本、中国、台湾の業界の紹介。",
+                        projectLink: "https://syou1997.github.io/Go_info/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Go_info.png?raw=true",
+
+                    },
+                    {
+                        projectName: "家計簿サイト",
+                        projectInfo: "収支の現状を把握するサイト。\n注意点:\n1.アカウントの作成が必要。\n2.収入は金額がプラスに対して支出は金額がマイナス。",
+                        projectLink: "https://income-and-expense2.netlify.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/money_memo.png?raw=true",
+
+                    },
+                    {
+                        projectName: "為替レートサイト",
+                        projectInfo: "為替レート計算ができるサイト。使い方はサイトページに表示されている。",
+                        projectLink: "https://exchange-rate3.netlify.app/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Exchange_rate.png?raw=true",
+
+                    },
+                    {
+                        projectName: "数字当てゲーム",
+                        projectInfo: "範囲は1から100まで。答えは毎回ランダムに生成される。",
+                        projectLink: "https://syou1997.github.io/Bulls-and-Cows/",
+                        projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Bulls_and_Cows.png?raw=true",
 
                     },
                 ],
