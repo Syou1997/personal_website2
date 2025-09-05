@@ -77,6 +77,13 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList:
                 [
+                                        {
+                        projectName: "動詞變變變！日語動詞挑戰遊戲",
+                        projectInfo: "這是一款專為日語學習者設計的互動遊戲。玩家將看到日語動詞的 ます形，並透過翻牌方式學習其 辭書形、可能形、受け身、使役、使役受け身 等不同變化。配合關卡與課次，循序漸進地熟悉動詞活用，讓學習變得像遊戲一樣有趣！",
+                        projectLink: "https://syou1997.github.io/Practice-Japanese-Verb-Conjugation/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Practice%20Japanese%20Verb%20Conjugation.png",
+
+                    },
                     {
                         projectName: "用《大家的日本語》來挑戰！",
                         projectInfo: "一邊在排行榜上和朋友競爭，一邊開心地複習。學生能在遊戲中提升實力，教師也能把它作為活躍課堂的輔助教材來使用。",
@@ -276,6 +283,13 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList:
                 [
+                                        {
+                        projectName: "動詞チェンジ！日本語動詞チャレンジゲーム",
+                        projectInfo: "日本語学習者のために作られたインタラクティブゲームです。プレイヤーは動詞の ます形 を見て、カードをめくりながら 辞書形・可能形・受け身・使役・使役受け身 などの変化を学びます。レッスンごとに段階的に練習でき、まるでゲームをしながら動詞活用をマスターできます！",
+                        projectLink: "https://syou1997.github.io/Practice-Japanese-Verb-Conjugation/",
+                        projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Practice%20Japanese%20Verb%20Conjugation.png",
+
+                    },
                     {
                         projectName: "『みんなの日本語』でチャレンジ！",
                         projectInfo: "ランキングで友達と競い合いながら、楽しく復習できる。学生は遊びながら力をつけ、教師は授業を盛り上げるアイテムとして活用できる。",
