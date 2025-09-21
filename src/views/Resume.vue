@@ -8,30 +8,19 @@ import indexStore from '../store/indexStore';
 import { Icon } from '@iconify/vue';
 export default {
      data() {
-          return {
-
-          }
+          return {}
      },
      computed: {
           //兩個參數:1.資料庫 2.要取用的(state/getter)
           ...mapState(indexStore, ["nowLanguage", "chinese", "japanese"]),
-
-
-
      },
      //方法
      methods: {
           ...mapActions(indexStore, ["toChinese", "toJapanese"])
-
-
      },
      //生命週期
-     mounted() {
-
-
-     },
+     mounted() { }
 }
-
 </script>
 
 <template>
@@ -45,14 +34,13 @@ export default {
                          <h6 class="year">{{ nowLanguage.resumeYear }}</h6>
                          <h3 class="title">{{ nowLanguage.resumeTitle }}</h3>
                     </div>
-
                     <p class="text">{{ nowLanguage.resumeText }}</p>
                </div>
           </div>
           <!-- 經歷 -->
           <h2>{{ nowLanguage.experience }} </h2>
           <div class="bcg_box">
-                       <div class="frame">
+               <div class="frame">
                     <div class="info">
                          <h6 class="year">{{ nowLanguage.resumeYear11 }}</h6>
                          <h3 class="title">{{ nowLanguage.resumeTitle11 }}</h3>
@@ -132,7 +120,6 @@ export default {
                     </div>
                     <p class="text">{{ nowLanguage.resumeText1 }}</p>
                </div>
-
           </div>
           <!-- 證照 -->
           <h2>{{ nowLanguage.certificate }} </h2>
@@ -143,23 +130,19 @@ export default {
                               <li>{{ nowLanguage.certificate1 }}</li>
                               <li>{{ nowLanguage.certificate2 }}</li>
                               <li>{{ nowLanguage.certificate3 }}</li>
-
                          </ul>
                     </div>
-
                     <div class="middle_area area">
                          <ul>
                               <li>{{ nowLanguage.certificate4 }}</li>
                               <li>{{ nowLanguage.certificate5 }}</li>
                          </ul>
                     </div>
-
                     <div class="right_area area">
                          <ul>
                               <li>{{ nowLanguage.certificate6 }}</li>
                          </ul>
                     </div>
-
                </div>
           </div>
           <!-- 技能 -->
@@ -177,23 +160,20 @@ export default {
                               alt="springBoot">
                          <img title="MySQL" class="icon" src="./../../image/ICONS/icons8-mysql.svg" alt="MySQL">
                     </div>
-
-
                     <div class="right_area area">
                          <ul>
                               <li>{{ nowLanguage.skill1 }}</li>
                               <li>{{ nowLanguage.skill2 }}</li>
                          </ul>
                     </div>
-
                </div>
           </div>
-
-
      </div>
 </template>
 
 <style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;600;700&display=swap");
+
 .container {
      animation-name: loading;
      animation-duration: 1s;
@@ -202,6 +182,8 @@ export default {
      display: flex;
      flex-direction: column;
      align-items: center;
+     font-family: "Zen Kaku Gothic New", system-ui, -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+     font-size: clamp(16px, 1.2vw, 18px);
 
      h1 {
           text-align: center;
@@ -218,32 +200,53 @@ export default {
           margin-top: 2rem;
           padding: 5rem;
           text-align: left;
-
      }
 
      .bcg_box {
-          // border: 2px solid red;
           width: 50vw;
           background-color: white;
           margin: 3rem 0;
           padding: 1rem;
-
+          cursor: pointer;
 
           .frame {
                width: 100%;
                display: flex;
                margin-bottom: 5rem;
+               padding: 1rem;
+               border-radius: 12px;
+               background: #fff;
+               border: 1px solid rgba(0, 0, 0, .06);
+               box-shadow: 0 6px 20px rgba(0, 0, 0, .08);
+               transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+               position: relative;
+
+               &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 4px;
+                    background: linear-gradient(180deg, #0050FF, rgba(0, 80, 255, .0));
+                    opacity: .85;
+                    border-radius: 4px;
+               }
+
+               &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 14px 34px rgba(0, 0, 0, .18);
+                    border-color: rgba(0, 80, 255, .25);
+               }
 
                .info {
                     min-width: 40%;
 
-
                     .title {
                          text-align: left;
                          font-size: 1.2rem;
-                         font-weight: 550;
+                         font-weight: 700;
                          white-space: pre-wrap;
-
                     }
 
                     .year {
@@ -252,8 +255,6 @@ export default {
                          margin-bottom: 0.5rem;
                          color: #0050FF;
                          font-weight: bold;
-                         // font-style: oblique;
-
                     }
                }
 
@@ -265,7 +266,6 @@ export default {
                     font-weight: 500;
                     white-space: pre-wrap;
                }
-
           }
 
           .frame2 {
@@ -301,20 +301,11 @@ export default {
 
                          &:hover {
                               transform: translate(0, -0.5rem);
-
                          }
                     }
                }
-
-
           }
-
-
-
-
      }
-
-
 }
 
 //進場動畫
@@ -343,19 +334,13 @@ export default {
                .frame {
                     flex-direction: column;
 
-
                     .text {
                          margin-left: 0;
                     }
-
                }
 
                .frame2 {
                     flex-direction: column;
-
-                    .left_area area {
-                         ul {}
-                    }
                }
           }
      }

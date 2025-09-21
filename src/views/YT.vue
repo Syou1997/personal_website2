@@ -73,99 +73,74 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;600;700&display=swap");
+
 .container {
-    animation-name: loading;
-    animation-duration: 1s;
-    background-color: #E6DACE;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  animation-name: loading;
+  animation-duration: 1s;
+  background-color: #E6DACE;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    h1 {
-        text-align: center;
-        height: 5vh;
-        font-size: 2.5rem;
-        font-weight: bolder;
+  /* 全部字體統一 */
+  font-family: "Zen Kaku Gothic New", system-ui, -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+
+  h1 {
+    text-align: center;
+    height: 5vh;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  .video_area {
+    width: 60vw;
+    background-color: white;
+    margin: 3rem 0;
+    padding: 1rem;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px;
+    box-shadow:
+      0 10px 26px rgba(0, 0, 0, .18),
+      inset 0 1px 0 rgba(255, 255, 255, .06);
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bolder;
+      padding-top: 1rem;
+      text-align: center;
     }
 
-
-
-    .video_area {
-        width: 60vw;
-        background-color: white;
-        margin: 3rem 0;
-        padding: 1rem;
-
-
-        h2 {
-            // width: 60vw;
-            // height: 15vh;
-            font-size: 2rem;
-            font-weight: bolder;
-            padding-top: 1rem;
-            text-align: center;
-
-        }
-
-        .video {
-            width: 100%;
-            height: 30vw;
-            margin-top: 2rem;
-
-        }
-
-        .memo_area {
-            background-color: #f9ecdf;
-            margin-top: 1rem;
-            margin-bottom: 4rem;
-            padding: 1.5rem;
-            border-radius: 60px;
-            box-shadow: 5px 5px 5px#c5905a;
-
-        }
-
-        .memo_icon {
-            font-size: 25px;
-            margin-bottom: 0.5rem;
-
-        }
-
-        h3 {
-            white-space: pre-wrap;
-        }
+    .video {
+      width: 100%;
+      height: 30vw;
+      margin-top: 2rem;
     }
 
+    .memo_area {
+      background-color: #f9ecdf;
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+      padding: 1.5rem;
+      border-radius: 60px;
+      box-shadow: 5px 5px 5px #c5905a;
+    }
 
+    .memo_icon {
+      font-size: 25px;
+      margin-bottom: 0.5rem;
+    }
 
-
-
+    h3 {
+      white-space: pre-wrap;
+    }
+  }
 }
 
-
-//進場動畫
+/* 進場動畫 */
 @keyframes loading {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-
-
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
-
-
-//RWD
-// @media screen and (max-width: 500px) {
-//     .container {
-//         .video_area {
-//             h2 {
-//                 font-size: 2rem;
-//             }
-//         }
-
-//     }
-// }
 </style>
