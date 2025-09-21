@@ -302,7 +302,6 @@ export default {
         .pic_area {
             .img_area {
                 width: 100%;
-                aspect-ratio: 4 / 3;
                 border-radius: 16px;
                 overflow: hidden;
                 background: #fff;

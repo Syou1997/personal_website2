@@ -208,7 +208,6 @@ export default {
           margin: 3rem 0;
           padding: 1rem;
           cursor: pointer;
-          aspect-ratio: 16 / 9;
           border-radius: 16px;
           box-shadow:
                0 10px 26px rgba(0, 0, 0, .18),
