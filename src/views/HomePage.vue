@@ -350,6 +350,17 @@ export default {
     color: black;
 }
 
+/* 進場動畫 */
+@keyframes loading {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 /* ====== RWD 斷點 ====== */
 
 /* Laptop ~ Tablet：單欄堆疊、背景條淡化 */
@@ -434,22 +445,7 @@ export default {
     }
 }
 
-/* 避免動畫造成暈眩的使用者 */
-@media (prefers-reduced-motion: reduce) {
-    * {
-        transition: none !important;
-        animation: none !important;
-    }
-}
 
-/* 進場動畫 */
-@keyframes loading {
-    from {
-        opacity: 0;
-    }
 
-    to {
-        opacity: 1;
-    }
-}
+
 </style>
