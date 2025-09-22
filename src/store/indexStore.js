@@ -82,7 +82,7 @@ export default defineStore("indexStatus", {
             projectList: [
 
                 {
-                    projectName: "チョイス・アトリエ",
+                    projectName: "選趣工坊",
                     projectInfo: "1.這是一款把「隨機挑選」做得既漂亮又好玩的小工具，只要輸入至少兩個選項，按下抽選卡片就會翻面揭曉結果。\n2.介面全面支援手機與桌機，並可切換主題（櫻花／海洋／森林／宇宙／夕陽），提供項目刪除、清空、完整防呆提示與抽選歷史（含分頁）。",
                     projectLink: "https://syou1997.github.io/Choice_Atelier/",
                     projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Choice_Atelier.png",
