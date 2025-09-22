@@ -80,6 +80,13 @@ export default defineStore("indexStatus", {
             skill2: "魔術(close-up magic)",
             //Project分頁
             projectList: [
+
+                {
+                    projectName: "チョイス・アトリエ",
+                    projectInfo: "1.這是一款把「隨機挑選」做得既漂亮又好玩的小工具，只要輸入至少兩個選項，按下抽選卡片就會翻面揭曉結果。\n2.介面全面支援手機與桌機，並可切換主題（櫻花／海洋／森林／宇宙／夕陽），提供項目刪除、清空、完整防呆提示與抽選歷史（含分頁）。",
+                    projectLink: "https://syou1997.github.io/Choice_Atelier/",
+                    projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Choice_Atelier.png",
+                }, 
                 {
                     projectName: "動詞變變變！日語動詞挑戰遊戲",
                     projectInfo: "這是一款專為日語學習者設計的互動遊戲。玩家將看到日語動詞的ます形，並透過翻牌方式學習其 辭書形、可能形、受け身、使役、使役受け身、て形等不同變化。配合關卡與課次，循序漸進地熟悉動詞活用，讓學習變得像遊戲一樣有趣！",
@@ -272,6 +279,12 @@ export default defineStore("indexStatus", {
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "チョイス・アトリエ",
+                    projectInfo: "1.二つ以上の項目を入力するとカードが反転して結果を公開する、可愛くて楽しいランダムピッカー。\n2.スマホ／PC対応でテーマ（桜／海／森林／宇宙／夕焼け）切替可能、項目削除・全消去・防呆メッセージ・履歴（ページ切替）など便利な機能付き。",
+                    projectLink: "https://syou1997.github.io/Choice_Atelier/",
+                    projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Choice_Atelier.png",
+                },
                 {
                     projectName: "動詞チェンジ！日本語動詞チャレンジゲーム",
                     projectInfo: "日本語学習者のために作られたインタラクティブゲームです。プレイヤーは動詞の ます形 を見て、カードをめくりながら 辞書形・可能形・受け身・使役・使役受け身・て形などの変化を学びます。レッスンごとに段階的に練習でき、まるでゲームをしながら動詞活用をマスターできます！",
