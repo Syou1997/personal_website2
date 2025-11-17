@@ -52,10 +52,10 @@ export default defineStore("indexStatus", {
             resumeText6: "從0開始學習，包含了前端到後端的網頁開發。\n在培訓課程結束後擁有了一定的網頁開發能力。\n目前我用有的網頁開發技能如下:\n\n前端:HTML、CSS(SCSS)、JavaScript、Vue\n後端:Java、SpingBoot\n資料庫:MySQL\n\n相關作品請參考「作品集」分頁。",
             resumeYear7: "2024年 7月 - 11月",
             resumeTitle7: "淺野屋輕井澤舊道本店\n\n日本打工度假",
-            resumeText7: "透過日本打工度假簽證在「BOULANGERIE ASANOYA 旧道本店」的麵包店擔任販賣部的店員。工作內容有包裝麵包、麵包的裁切、收銀...等等。另外，除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
+            resumeText7: "透過日本打工度假簽證在「BOULANGERIE ASANOYA 旧道本店」的麵包店擔任販賣部的店員。工作內容有包裝麵包、麵包的裁切、收銀...等等。\n\n另外，除了接待一般的日本顧客外，還負責接待台灣、中國、香港、新加玻...使用中文的顧客。",
             resumeYear8: "2025年 12月 - 3月",
             resumeTitle8: "京都高島屋 GRAMERCY NEWYORK\n\n日本打工度假",
-            resumeText8: "以打工度假簽證，在京都高島屋裡面的「Gramercy New York」的蛋糕店擔任銷售員。工作內容包括包裝蛋糕、補貨以及書寫蛋糕牌...等等。此外，也負責接待日本人以及來自台灣、中國、香港、新加坡等會說中文的顧客。",
+            resumeText8: "以打工度假簽證，在京都高島屋裡面的「Gramercy New York」的蛋糕店擔任銷售員。工作內容包括包裝蛋糕、補貨以及書寫蛋糕牌...等等。\n\n此外，也負責接待日本人以及來自台灣、中國、香港、新加坡等會說中文的顧客。",
             resumeYear9: "2025年 2月 - 4月",
             resumeTitle9: "Let's! China 中文教室\n\n日本打工度假",
             resumeText9: "透過「レッツ!チャイナ中国語教室」這個網站，擔任日本人的中文老師，在咖啡廳進行一對一的教學打工。",
@@ -65,6 +65,10 @@ export default defineStore("indexStatus", {
             resumeYear11: "2025年 6月 - 現在",
             resumeTitle11: "聯成外語 日語老師\n\n兼職",
             resumeText11: "目前在聯成外語上擔任線上日文老師。",
+            resumeYear12: "2025年 7月 - 2025年 12月",
+            resumeTitle12: "「日本語教師養成講座」培訓\n\n課程 結業\n實習 完成",
+            resumeText12: "於京都民際日本語學校西大路校區，系統性學習成為日語教師所需的教授方法、語言知識、教案編寫方式及模擬教學等內容。",
+
 
             //證照
             certificate: "證照",
@@ -86,7 +90,7 @@ export default defineStore("indexStatus", {
                     projectInfo: "1.這是一款把「隨機挑選」做得既漂亮又好玩的小工具，只要輸入至少兩個選項，按下抽選卡片就會翻面揭曉結果。\n2.介面全面支援手機與桌機，並可切換主題（櫻花／海洋／森林／宇宙／夕陽），提供項目刪除、清空、完整防呆提示與抽選歷史（含分頁）。",
                     projectLink: "https://syou1997.github.io/Choice_Atelier/",
                     projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Choice_Atelier.png",
-                }, 
+                },
                 {
                     projectName: "動詞變變變！日語動詞挑戰遊戲",
                     projectInfo: "這是一款專為日語學習者設計的互動遊戲。玩家將看到日語動詞的ます形，並透過翻牌方式學習其 辭書形、可能形、受け身、使役、使役受け身、て形等不同變化。配合關卡與課次，循序漸進地熟悉動詞活用，讓學習變得像遊戲一樣有趣！",
@@ -252,10 +256,10 @@ export default defineStore("indexStatus", {
             resumeText6: "フロントエンドもバックエンドもゼロから習い、授業終了後、ある程度Web制作の能力を取得した。\n取得したスキルは以下:\n\nフロントエンド:HTML、CSS(SCSS)、JavaScript、Vue\nバックエンド:Java、SpingBoot\nデータベース:MySQL\n\n詳細は「作品集」タブをご参照。",
             resumeYear7: "2024年 7月 - 11月",
             resumeTitle7: "ブランジェ浅野屋 旧道本店\n\n日本でのワーキングホリデー",
-            resumeText7: "ワーキングホリデービザで、「ブランジェ浅野屋 旧道本店」というパン屋さんで販売員としてアルバイト。勤務内容はパンの包みやスライス、レジなど。また、日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
+            resumeText7: "ワーキングホリデービザで、「ブランジェ浅野屋 旧道本店」というパン屋さんで販売員としてアルバイト。勤務内容はパンの包みやスライス、レジなど。\n\nまた、日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
             resumeYear8: "2025年 12月 - 3月",
             resumeTitle8: "京都高島屋 グラマシーニューヨーク\n\n日本でのワーキングホリデー",
-            resumeText8: "ワーキングホリデービザで、「グラマシーニューヨーク」というケーキ屋さんで販売員としてアルバイト。勤務内容はケーキの包みや補充、プレート書きなど。また日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
+            resumeText8: "ワーキングホリデービザで、「グラマシーニューヨーク」というケーキ屋さんで販売員としてアルバイト。勤務内容はケーキの包みや補充、プレート書きなど。\n\nまた日本人他、台湾、中国、香港、シンガポール等、中国語を話すお客様の接客を担当。",
             resumeYear9: "2025年 2月 - 4月",
             resumeTitle9: "レッツ!チャイナ中国語教室\n\n日本でのワーキングホリデー",
             resumeText9: "「レッツ!チャイナ中国語教室」というサイトを通じて、中国語の先生として、カフェで一対一レッスンのアルバイト。",
@@ -265,6 +269,10 @@ export default defineStore("indexStatus", {
             resumeYear11: "2025年 6月 - 現在",
             resumeTitle11: "聯成外語 日本語の先生\n\nアルバイト",
             resumeText11: "台湾の聯成外語という語学学校で、オンラインの日本語の先生を担当中。",
+            resumeYear12: "2025年 7月 - 2025年 12月",
+            resumeTitle12: "「日本語教師養成講座」を受講\n\n講座 修了\n実践研修 修了",
+            resumeText12: "京都民際日本語学校 西大路キャンパスにて、日本語教師として必要となる教授法、言語知識、教案の作り方、模擬授業などを体系的に学習。",
+
             //證照
             certificate: "資格",
             certificate1: "JLPT 日本語能力試験 N1",
@@ -287,7 +295,7 @@ export default defineStore("indexStatus", {
                 },
                 {
                     projectName: "動詞チェンジ！日本語動詞チャレンジゲーム",
-                    projectInfo: "日本語学習者のために作られたインタラクティブゲームです。プレイヤーは動詞の ます形 を見て、カードをめくりながら 辞書形・可能形・受け身・使役・使役受け身・て形などの変化を学びます。レッスンごとに段階的に練習でき、まるでゲームをしながら動詞活用をマスターできます！",
+                    projectInfo: "日本語学習者のために作られたインタラクティブゲーム。プレイヤーは動詞の ます形 を 辞書形・可能形・受け身・使役・使役受け身・て形などの変化を学ぶ。レッスンごとに段階的に練習でき、まるでゲームをしながら動詞活用をマスターできる！",
                     projectLink: "https://syou1997.github.io/Practice-Japanese-Verb-Conjugation/",
                     projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/Practice%20Japanese%20Verb%20Conjugation.png",
                 },

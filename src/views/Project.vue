@@ -6,43 +6,95 @@ export default {
   computed: {
     ...mapState(indexStore, ['nowLanguage', 'chinese', 'japanese'])
   },
+  data () {
+    return {
+      scrollProgress: 0,   // 0~100 的進度
+      showScrollTop: false // 是否顯示返回頂部按鈕
+    }
+  },
   methods: {
-    ...mapActions(indexStore, ['toChinese', 'toJapanese'])
+    ...mapActions(indexStore, ['toChinese', 'toJapanese']),
+    handleScroll () {
+      const scrollTop =
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        0
+
+      const docHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight
+
+      const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0
+
+      this.scrollProgress = progress
+      // 捲動一點點後才顯示按鈕
+      this.showScrollTop = scrollTop > 120
+    },
+    scrollToTop () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.handleScroll, { passive: true })
+    this.handleScroll()
+  },
+  beforeUnmount () {
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
 
 <template>
-  <div class="container">
-    <h1>{{ nowLanguage.project }}</h1>
+  <div>
+    <div class="container">
+      <h1>{{ nowLanguage.project }}</h1>
 
-    <div
-      v-for="(item, index) in (nowLanguage?.projectList || [])"
-      :key="index"
-      class="bcg_box"
-    >
-      <!-- 整個 frame 變成超連結 -->
-      <a
-        class="frame"
-        :href="item.projectLink"
-        target="_blank"
-        rel="noopener noreferrer"
-        :aria-label="`Open project: ${item.projectName}`"
-        title="open the page"
+      <div
+        v-for="(item, index) in (nowLanguage?.projectList || [])"
+        :key="index"
+        class="bcg_box"
       >
-        <div class="info">
-          <h2 class="project_name">
-            {{ item.projectName }}
-            <div class="box"></div>
-          </h2>
-          <p class="project_info">{{ item.projectInfo }}</p>
-        </div>
+        <!-- 整個 frame 變成超連結 -->
+        <a
+          class="frame"
+          :href="item.projectLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          :aria-label="`Open project: ${item.projectName}`"
+          title="open the page"
+        >
+          <div class="info">
+            <h2 class="project_name">
+              {{ item.projectName }}
+              <div class="box"></div>
+            </h2>
+            <p class="project_info">{{ item.projectInfo }}</p>
+          </div>
 
-        <div class="img_frame">
-          <img :src="item.projectImgLink" alt="project picture" />
-        </div>
-      </a>
+          <div class="img_frame">
+            <img :src="item.projectImgLink" alt="project picture" />
+          </div>
+        </a>
+      </div>
     </div>
+
+    <!-- 右下角：返回頂部 + 進度條按鈕（從 container 移到外層） -->
+    <button
+      v-show="showScrollTop"
+      class="scrollTopBtn"
+      :style="{ '--progress': scrollProgress + '%' }"
+      @click="scrollToTop"
+      aria-label="Back to top"
+      type="button"
+    >
+      <span class="scrollTopBtn__inner">
+        <span class="scrollTopBtn__icon">▲</span>
+      </span>
+    </button>
   </div>
 </template>
 
@@ -151,8 +203,73 @@ export default {
   }
 }
 
+/* 返回頂部＋進度條按鈕：固定在視窗右下角 */
+.scrollTopBtn{
+  position: fixed;
+  right: clamp(16px, 3vw, 26px);
+  bottom: clamp(16px, 3vw, 26px);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background:
+    conic-gradient(
+      #0050FF var(--progress, 0%),
+      rgba(0,0,0,0.08) 0
+    );
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 26px rgba(0,0,0,.22);
+  transition:
+    transform .22s ease,
+    box-shadow .22s ease,
+    background .22s ease,
+    opacity .22s ease;
+  z-index: 999;
+  opacity: 0.96;
+
+  .scrollTopBtn__inner{
+    width: 86%;
+    height: 86%;
+    border-radius: 50%;
+    background: #ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .scrollTopBtn__icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0050FF;
+    transform: translateY(-1px); /* 讓箭頭視覺上更置中 */
+  }
+
+  &:hover,
+  &:focus-visible{
+    outline: none;
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 14px 32px rgba(0,0,0,.30);
+    opacity: 1;
+  }
+
+  &:active{
+    transform: translateY(0) scale(.97);
+    box-shadow: 0 8px 20px rgba(0,0,0,.22);
+  }
+}
+
 /* 進場動畫 */
-@keyframes loading{ from{opacity:0; transform: translateY(4px);} to{opacity:1; transform:none;} }
+@keyframes loading{ 
+  from{opacity:0; transform: translateY(4px);} 
+  to{opacity:1; transform:none;} 
+}
 
 /* RWD：直排、圖文比例調整與圖片高度保護 */
 @media screen and (max-width: 1200px){
@@ -171,7 +288,7 @@ export default {
   }
 }
 
-/* 更小裝置的排版與字級微調 */
+/* 更小裝置的排版與字級微調 & 按鈕縮小 */
 @media screen and (max-width: 640px){
   .container{
     padding: 42px 0;
@@ -196,6 +313,17 @@ export default {
 
         .img_frame{ max-height: 60vw; }
       }
+    }
+  }
+
+  .scrollTopBtn{
+    width: 52px;
+    height: 52px;
+    right: 14px;
+    bottom: 14px;
+
+    .scrollTopBtn__icon{
+      font-size: 1.05rem;
     }
   }
 }
