@@ -85,6 +85,12 @@ export default defineStore("indexStatus", {
             skill2: "魔術(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "50音學習表",
+                    projectInfo: "色彩繽紛的50學習表。點擊文字還可以聽到發音喔。",
+                    projectLink: "https://syou1997.github.io/JapaneseSyllabariesSheet/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/502.png?raw=true",
+                },
 
                 {
                     projectName: "選趣工坊",
@@ -290,10 +296,10 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
-                    projectName: "",
-                    projectInfo: "",
-                    projectLink: "",
-                    projectImgLink: "",
+                    projectName: "音が出る！カラフル50音学習表",
+                    projectInfo: "カラフルなあいうえお表。文字をクリックすると音声も流れます。",
+                    projectLink: "https://syou1997.github.io/JapaneseSyllabariesSheet/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/502.png?raw=true",
                 },
                 {
                     projectName: "チョイス・アトリエ",
