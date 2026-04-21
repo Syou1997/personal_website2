@@ -21,7 +21,7 @@ export default defineStore("indexStatus", {
             homePageP1: "此話出自古希臘哲學家赫拉克利特。我們生活中的每一刻都在變化，不管是好的還是壞的都要勇敢面對，活出好玩且精采的每一天是我的目標。",
             homePageH4: "關於我",
             homePageP2:
-                "畢業於明道大學 應用日語系學系。大二擔任魔術社社長、大三到日本留學、大四到韓國留學。2020年~2023年在百家泰擔任電腦Driver測試工程師。2023年開始學習網頁開發。2024~2025年前往日本打工度假。目前正在擔任線上日文老師。",
+                "畢業於明道大學 應用日語系學系。大二擔任魔術社社長、大三到日本留學、大四到韓國留學。2020年~2023年在百家泰擔任電腦Driver測試工程師。2023年開始學習網頁開發。2024~2025年前往日本打工度假。目前正在擔任線上日文老師。2026年取得「登錄日本語教師」資格。",
             homePageH5: "專長",
             homePageP3:
                 "<strong>日語:</strong>\n50音教學、口說指導、日常會話、JLPT N5~N2指導、隨行口譯。擁有被誤認為是日本人的良好日語發音，擅長用簡單易懂的例子及圖像來讓學生理解。\n\n<strong>魔術:</strong>\n近景魔術、派對魔術、近景魔術教學。最擅長的是撲克牌魔術，此外，花式撲克牌也略有涉獵。\n\n<strong>網頁開發:</strong>\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\n<strong>Youtube:</strong>\n2024年開始經營各個人Youtube頻道，主要分享旅遊的VLOG影片。\n\n<strong>部落格:</strong>\n2024年開始經營各個人部落格，分享內容有:旅遊介紹、日語教學、台日生活...等等。",
@@ -72,12 +72,13 @@ export default defineStore("indexStatus", {
 
             //證照
             certificate: "證照",
-            certificate1: "JLPT 日本語能力試驗 N1",
-            certificate2: "BJT商業⽇語能⼒考試 J2",
-            certificate3: "J-TEST 實用日語檢定 A級",
-            certificate4: "丙級餐旅服務技術士",
-            certificate5: "丙級飲料調製技術士",
-            certificate6: "TQC-OA -日文輸入",
+            certificate1: "登入日本語教師",
+            certificate2: "JLPT 日本語能力試驗 N1",
+            certificate3: "BJT 商業⽇語能⼒考試 J2",
+            certificate4: "J-TEST 實用日語檢定 A級",
+            certificate5: "丙級餐旅服務技術士",
+            certificate6: "丙級飲料調製技術士",
+            certificate7: "TQC-OA 日文輸入",
             //技能
             skill: "技能",
             skill1: "日語教學",
@@ -225,7 +226,7 @@ export default defineStore("indexStatus", {
             homePageP1: "これは古代ギリシアの哲学者ヘラクレイトスが言った言葉です。私たちが送っている毎日はくるくる変わっていくものです。良いことであろうと悪いことであろうと、変化に立ち向かい、面白くて素敵な毎日を送ることが私の目標です。",
             homePageH4: "私について",
             homePageP2:
-                "台湾で明道大学 応用日本語学科を卒業し、二年生の時はマジック部長、三年の時には日本に留学し、四年生では韓国に留学。卒業後、2020～2023年、台湾アリオンでドライバーテストエンジニアを担当。2023年からWebの開発を勉強し始めた。2024年～2025年、日本でワーキングホリデー。現在、日本語の先生をしている。",
+                "台湾で明道大学 応用日本語学科を卒業し、二年生の時はマジック部長、三年の時には日本に留学し、四年生では韓国に留学。卒業後、2020～2023年、台湾アリオンでドライバーテストエンジニアを担当。2023年からWebの開発を勉強し始めた。2024年～2025年、日本でワーキングホリデー。現在、日本語の先生をしている。2026年「登録日本語教員」の資格を取得",
             homePageH5: "スキル",
             homePageP3:
                 "<strong>日本語:</strong>\n50音授業、フリートーク、日常会話、日本語能力試験 N5~N2の指導、アテンド通訳。日本人だと勘違いされるぐらい発音がよく、例文や絵を使い「分かりやすく説明できる」のがアピールポイント。\n\n<strong>手品:</strong>\n近距離手品、パーティー手品、近距離手品の指導。トランプマジックが得意。カーディストリーもできる。\n\n<strong>Webサイト制作:</strong>\nHTML、CSS、JavaScript、Vue、Spring Boot、MySQL。\n\n<strong>Youtube:</strong>\n2024年からユーチューブを撮り始め、旅行のVLOGを中心に投稿している。\n\n<strong>ブログ:</strong>\n2024年からブログを書き始め、旅行、日本語勉強と台日生活など、色々な記事を書いている。",
@@ -275,18 +276,25 @@ export default defineStore("indexStatus", {
 
             //證照
             certificate: "資格",
-            certificate1: "JLPT 日本語能力試験 N1",
-            certificate2: "BJT ビジネス日本語能力テスト J2",
-            certificate3: "J.TEST 実用日本語検定 A 級",
-            certificate4: "餐旅服務丙級\n(ホテル、レストランサービス技能検定)",
-            certificate5: "飲料調製丙級\n(日本のカクテル検定3級相当)",
-            certificate6: "TQC 日本語入力レベル 3",
+            certificate1: "登録日本語教員",
+            certificate2: "JLPT 日本語能力試験 N1",
+            certificate3: "BJT ビジネス日本語能力テスト J2",
+            certificate4: "J.TEST 実用日本語検定 A 級",
+            certificate5: "餐旅服務丙級\n(ホテル、レストランサービス技能検定)",
+            certificate6: "飲料調製丙級\n(日本のカクテル検定3級相當)",
+            certificate7: "TQC 日本語入力レベル 3",
             //技能
             skill: "スキル",
             skill1: "日本語",
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "",
+                    projectInfo: "",
+                    projectLink: "",
+                    projectImgLink: "",
+                },
                 {
                     projectName: "チョイス・アトリエ",
                     projectInfo: "1.二つ以上の項目を入力するとカードが反転して結果を公開する、可愛くて楽しいランダムピッカー。\n2.スマホ／PC対応でテーマ（桜／海／森林／宇宙／夕焼け）切替可能、項目削除・全消去・防呆メッセージ・履歴（ページ切替）など便利な機能付き。",
