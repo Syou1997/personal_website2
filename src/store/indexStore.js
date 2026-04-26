@@ -86,6 +86,12 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
+                    projectName: "日文音標自動標註器",
+                    projectInfo: "這是一款專為日文學習者與內容創作者設計的線上工具。它能自動識別日文句子中的漢字，並精準地標註對應的平假名（Furigana / 振假名），省去手動查字典與標記的時間。",
+                    projectLink: "https://syou1997.github.io/jp-pronunciation-api/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/jp-pronunciation-api.png?raw=true",
+                },
+                {
                     projectName: "50音學習表",
                     projectInfo: "色彩繽紛的50學習表。點擊文字還可以聽到發音喔。",
                     projectLink: "https://syou1997.github.io/JapaneseSyllabariesSheet/",
@@ -295,6 +301,12 @@ export default defineStore("indexStatus", {
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "日本語ふりがな自動変換ツール",
+                    projectInfo: "このツールは、日本語学習者やコンテンツクリエイターのために開発された、漢字にふりがな（ルビ）を自動で振るオンラインツールです。複雑な日本語の文章も、ワンクリックで読みやすく整理します。",
+                    projectLink: "https://syou1997.github.io/jp-pronunciation-api/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/jp-pronunciation-api.png?raw=true",
+                },
                 {
                     projectName: "音が出る！カラフル50音学習表",
                     projectInfo: "カラフルなあいうえお表。文字をクリックすると音声も流れます。",
