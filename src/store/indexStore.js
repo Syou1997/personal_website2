@@ -86,6 +86,12 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
+                    projectName: "專業教師課程管理系統",
+                    projectInfo: "這是一套專為跨平台語言教師設計的網頁應用程式，旨在解決教師在管理多個教學平台（如 AmazingTalker, Preply, 聯成外語等）時，行程凌亂且收入難以統計的問題。",
+                    projectLink: "https://syou1997.github.io/LMS/",
+                    projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/LMSPIC.png",
+                },
+                {
                     projectName: "日文音標自動標註器",
                     projectInfo: "這是一款專為日文學習者與內容創作者設計的線上工具。它能自動識別日文句子中的漢字，並精準地標註對應的平假名（Furigana / 振假名），省去手動查字典與標記的時間。",
                     projectLink: "https://syou1997.github.io/jp-pronunciation-api/",
@@ -301,6 +307,12 @@ export default defineStore("indexStatus", {
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "講師のためのスケジュール管理システム",
+                    projectInfo: "本システムは、複数のプラットフォーム(AmazingTalker, Preplyなど)で活躍する講師のために開発された、効率的なスケジュール管理ツールです。",
+                    projectLink: "https://syou1997.github.io/LMS/",
+                    projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/LMSPIC.png",
+                },
                 {
                     projectName: "日本語ふりがな自動変換ツール",
                     projectInfo: "このツールは、日本語学習者やコンテンツクリエイターのために開発された、漢字にふりがな（ルビ）を自動で振るオンラインツールです。複雑な日本語の文章も、ワンクリックで読みやすく整理します。",
