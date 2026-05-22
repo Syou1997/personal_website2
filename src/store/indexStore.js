@@ -86,8 +86,8 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
-                    projectName: "專業教師課程管理系統",
-                    projectInfo: "這是一套專為跨平台語言教師設計的網頁應用程式，旨在解決教師在管理多個教學平台（如 AmazingTalker, Preply, 聯成外語等）時，行程凌亂且收入難以統計的問題。",
+                    projectName: "教師行程管理系統",
+                    projectInfo: "專為線上老師、家教與自由工作者設計的雙模式行程管理工具。可用「教師排課模式」管理課程、學生、平台、收入與時區，也能切換成「一般行事曆模式」記錄分類、地點、花費與備註。支援 Google Calendar 匯出、課表圖片下載、JSON 備份匯入，適合想把排課與日常安排整理得更清楚的人。",
                     projectLink: "https://syou1997.github.io/LMS/",
                     projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/LMSPIC.png",
                 },
@@ -308,8 +308,8 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
-                    projectName: "講師のためのスケジュール管理システム",
-                    projectInfo: "本システムは、複数のプラットフォーム(AmazingTalker, Preplyなど)で活躍する講師のために開発された、効率的なスケジュール管理ツールです。",
+                    projectName: "教師スケジュール管理システム",
+                    projectInfo: "オンライン講師、家庭教師、フリーランス向けの二つのモードを備えたスケジュール管理ツールです。「教師レッスン管理モード」では、授業、学生、プラットフォーム、収入、タイムゾーンを管理できます。また、「一般カレンダーモード」に切り替えることで、予定の分類、場所、費用、メモなども記録できます。Google Calendar へのエクスポート、スケジュール画像の保存、JSON バックアップのインポートにも対応しています。",
                     projectLink: "https://syou1997.github.io/LMS/",
                     projectImgLink: "https://raw.githubusercontent.com/Syou1997/personal_website2/refs/heads/main/image/LMSPIC.png",
                 },
