@@ -86,6 +86,12 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
+                    projectName: "簡約記事本｜自動儲存・分類管理・歷史紀錄",
+                    projectInfo: "一款以「簡單、直覺、好用」為目標的網頁記事本，使用 HTML、CSS、JavaScript 製作。無需登入，支援自動儲存、彩色分類、最近開啟紀錄、跨分類搜尋與關鍵字標示，並提供全文複製及備份匯出／匯入功能。介面支援繁體中文、英文與日文。目前以電腦瀏覽器版本為主，後續規劃製作 Android 版本。資料儲存在目前瀏覽器，尚未提供雲端同步。",
+                    projectLink: "https://github.com/Syou1997/-memoAPP/blob/main/memo.png?raw=true",
+                    projectImgLink: "https://syou1997.github.io/-memoAPP/",
+                },
+                {
                     projectName: "教師行程管理系統",
                     projectInfo: "專為線上老師、家教與自由工作者設計的雙模式行程管理工具。可用「教師排課模式」管理課程、學生、平台、收入與時區，也能切換成「一般行事曆模式」記錄分類、地點、花費與備註。支援 Google Calendar 匯出、課表圖片下載、JSON 備份匯入，適合想把排課與日常安排整理得更清楚的人。",
                     projectLink: "https://syou1997.github.io/LMS/",
@@ -308,6 +314,12 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
+                    projectName: "シンプルメモ帳｜自動保存・カテゴリー管理・閲覧履歴",
+                    projectInfo: "「シンプルで、直感的に使えること」を目指した、HTML・CSS・JavaScript 製のメモアプリです。ログイン不要で、自動保存、色分けしたカテゴリー、閲覧履歴、全カテゴリー検索とキーワードのハイライトに対応。全文コピーやバックアップの書き出し・読み込みもできます。日本語・繁体字中国語・英語に対応しています。現在は PC ブラウザー向けで、今後は Android 版の開発も予定しています。データは使用中のブラウザーに保存され、クラウド同期には対応していません。",
+                    projectLink: "https://github.com/Syou1997/-memoAPP/blob/main/memo.png?raw=true",
+                    projectImgLink: "https://syou1997.github.io/-memoAPP/",
+                },
+                {
                     projectName: "教師スケジュール管理システム",
                     projectInfo: "オンライン講師、家庭教師、フリーランス向けの二つのモードを備えたスケジュール管理ツールです。「教師レッスン管理モード」では、授業、学生、プラットフォーム、収入、タイムゾーンを管理できます。また、「一般カレンダーモード」に切り替えることで、予定の分類、場所、費用、メモなども記録できます。Google Calendar へのエクスポート、スケジュール画像の保存、JSON バックアップのインポートにも対応しています。",
                     projectLink: "https://syou1997.github.io/LMS/",
@@ -446,7 +458,7 @@ export default defineStore("indexStatus", {
             youtubeH2_3: "2024年Caho先生の台湾個展",
             youtubeH3_3: "日本人のイラストレーターCaho先生の個展に行ったVLOG。\n\n音声は中国語で日本語の字幕はCC字幕を使用されています。",
             //footer
-            phone: "080-7390-3706",
+            phone: "070-4702-4506",
             email: "azwsxrfv2396187@gmail.com",
         }
     }),
