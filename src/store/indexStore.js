@@ -94,6 +94,12 @@ export default defineStore("indexStatus", {
             //Project分頁
             projectList: [
                 {
+                    projectName: "教室隨機座位點名器",
+                    projectInfo: "上課時，是否曾經煩惱「接下來該請誰回答問題呢？」\n「教室隨機座位點名器」是一款專為教師設計的免費網頁工具，能在課堂上隨機選擇學生回答問題。\n只要點擊「抽選」按鈕，或按下鍵盤上的 Enter 鍵，系統就會從 20 個座位中隨機選出一個位置。\n被選中的座位會以黃色標示，讓老師一眼就能確認該請哪位學生回答。",
+                    projectLink: "https://syou1997.github.io/Random-Seat-Picker/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Random-Seat-Picker.png?raw=true",
+                },
+                {
                     projectName: "簡約記事本｜自動儲存・分類管理・歷史紀錄",
                     projectInfo: "一款以「簡單、直覺、好用」為目標的網頁記事本，使用 HTML、CSS、JavaScript 製作。無需登入，支援自動儲存、彩色分類、最近開啟紀錄、跨分類搜尋與關鍵字標示，並提供全文複製及備份匯出／匯入功能。介面支援繁體中文、英文與日文。目前以電腦瀏覽器版本為主，後續規劃製作 Android 版本。資料儲存在目前瀏覽器，尚未提供雲端同步。",
                     projectLink: "https://syou1997.github.io/-memoAPP/",
@@ -329,6 +335,12 @@ export default defineStore("indexStatus", {
             skill2: "手品(close-up magic)",
             //Project分頁
             projectList: [
+                {
+                    projectName: "教室座席ランダム指名ツール",
+                    projectInfo: "授業中、「次は誰に答えてもらおう？」と迷ったことはありませんか？\n「教室座席ランダム指名ツール」は、先生が授業中に学生をランダムに指名できる無料のWebツールです。\n「抽選」ボタンをクリックするか、キーボードのEnterキーを押すだけで、20席の中からランダムに1席が選ばれます。\n選ばれた座席は黄色で表示されるため、誰を指名するか一目で確認できます。",
+                    projectLink: "https://syou1997.github.io/Random-Seat-Picker/",
+                    projectImgLink: "https://github.com/Syou1997/personal_website2/blob/main/image/Random-Seat-Picker.png?raw=true",
+                },
                 {
                     projectName: "シンプルメモ帳｜自動保存・カテゴリー管理・閲覧履歴",
                     projectInfo: "「シンプルで、直感的に使えること」を目指した、HTML・CSS・JavaScript 製のメモアプリです。ログイン不要で、自動保存、色分けしたカテゴリー、閲覧履歴、全カテゴリー検索とキーワードのハイライトに対応。全文コピーやバックアップの書き出し・読み込みもできます。日本語・繁体字中国語・英語に対応しています。現在は PC ブラウザー向けで、今後は Android 版の開発も予定しています。データは使用中のブラウザーに保存され、クラウド同期には対応していません。",
